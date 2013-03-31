@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-nav.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+       <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+        .site-nav {
+            background: none repeat scroll 0 0 #F7F7F7;
+            color: #BFCDD8;
+            height: 32px;
+            width: 100%;
+        }
+
+        .site-con, .header-cnt { width:990px; margin:0 auto;}
+
+        .site-nav h2 {
+            color: #666666;
+            float: left;
+            line-height: 32px;
+        }
+        /** 用于覆盖下拉白色背景 */
+        .site-nav .global-toplink .global-toplink-username {
+            background-color: #F7F7F7;
+        }
+
+        .site-nav .global-dropdown-active .global-toplink-username {
+            background-color: #FFF;
+        }
+
+        .header {
+            background:#2566A0;
+            color: #FFFFFF;
+            height: 66px;
+            width: 100%;
+        }
+
+        .header-cnt {
+            height:66px;
+        }
+
+        .header-cnt h1 {
+            margin-top: 15px;
+        }
+
+
+        .ui-footer {
+            
+            border-top: 1px solid #CCCCCC;
+            height: 100px;
+            background-color:#F5F5F5;
+        }
+
+        .ui-footer-copyright .server {
+            color:#f5f5f5;
+        }
+
+        .ui-footer-copyright {
+            text-align:center;
+            background-color:#f5f5f5;
+        }
+
+        /** 产品自定义尾 */
+
+        .ui-productfooter {
+            border-top:1px solid #ccc;
+        }
+
+        .ui-productfooter-ctn {
+            border-top:1px solid #fff;
+            background-color:#f5f5f5;
+            text-align:center;
+            padding:5px 0;
+        }
+        .ui-productfooter .ui-footer {
+            margin-top:0;
+            border-top:none;
+        }
+         .ui-productfooter .ui-footer-ctn {
+            border-top:none;
+         }
+
+         /** 首页尾样式 */
+    .ui-footermain {
+        background-color:#F7F7F7;
+    }
+
+    .site-links{text-align:center; border-top:1px solid #D9D9D9; padding-top:15px; margin-bottom:15px}
+    .site-links .first{border:none}
+    .site-links li{display:inline; color:#BBB}
+
+    .alibaba-links span{display:block; height:26px; line-height:26px}
+    .alibaba-links a, .alibaba-links span{color:#999}
+    .alibaba-links{text-align:center; color:#CCC}
+    .alibaba-links{text-align:center; color:#CCC; margin-bottom:10px}
+
+    .security-links li{display:inline; float:left;}
+    .security-links{text-align:center; padding-bottom:30px; margin:0 auto;width:608px;}
+    .security-links a{height:35px; display:block; text-indent:-9999em; background:url(images/2XSZoo2M8p.png) no-repeat 0 0; margin-right:12px; position:relative;overflow:hidden;}
+    .security-links .verisign{width:82px}
+    .security-links .zjswm{background-position:-186px 0; width:35px}
+    .security-links .wlgs{background-position:-227px 0; width:29px}
+    .security-links .ppaa{background-position:-265px 0; width:33px}
+    .security-links .hzdtgt{background-position:-303px 0; width:30px}
+    .security-links .anfang{background-position:-342px 0; width:40px}
+
+    .security-links  .newIcon,.pci-vertify span{background:url(images/2XSZoo2M8p.png) no-repeat;}
+    .security-links li a.zfxkz{width:48px;height:35px;}
+    .security-links .visa{width:57px;height:35px;background-position:-60px top;cursor:auto;}
+    .security-links .visa span{display:block;width:57px;height:35px;text-indent:-9999px;}
+    .security-links li a.versign{background-position:-120px top;width:64px;height:35px;}
+    .security-links .pci-vertify a{display:block;width:76px;height:35px;background-position:-382px top;cursor:pointer;text-indent:-9999px;}
+    .security-links .szfw-renzheng{background-position:-461px 0; width:96px;margin-right:0;}
+
+
+    </style>
+</head>
+
+<body>
+
+<div class="title">页面footer</div>
+
+<!-- /public/component/footCommon.vm -->
+<style>
+.ui-footer {margin-top: 30px; border-top: 1px solid #cccccc; height: 100px; }
+.ui-footer .ui-separator{font-weight: normal;}
+.ui-footer-ctn {border-top: 1px solid #ffffff;padding-top: 15px;text-align: center;}
+.ui-footer-link a {padding: 0 3px 0 2px;}
+.ui-footer-copyright,.ui-footer-phone {padding-top: 10px;}
+.server{color:#fff;}
+</style>
+<div class="ui-footer fn-clear" coor="footer">
+    <div class="ui-footer-ctn">
+
+        <div class="ui-footer-link">
+            <a seed="foot-1" href="http://ab.alipay.com/index.htm?Nummain=13" title="关于支付宝" target="_blank">关于支付宝</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-1" href="http://qudao.alipay.com/" title="经销商体系" target="_blank">经销商体系</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-2" href="http://ue.alipay.com/" title="体验计划" target="_blank">体验计划</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-3" href="http://blog.alipay.com/" title="官方博客" target="_blank">官方博客</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-4" href="http://job.alipay.com/index.php" title="诚征英才" target="_blank">诚征英才</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-5" href="http://ab.alipay.com/index.htm?Nummain=31" title="联系我们" target="_blank">联系我们</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-6" href="http://global.alipay.com/" title="International Business" target="_blank">International Business</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-7" href="http://ab.alipay.com/index.htm?Nummain=34" title="About Alipay" target="_blank">About Alipay</a>
+        </div>
+                <div class="ui-footer-copyright">
+            <!-- CMS:版权开始:alipay/foot/copyright.vm --><style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+
+</style>
+<div class="copyright">
+  支付宝版权所有 2004-2012 
+  <a href="https://i.alipayobjects.com/e/201201/2PFHAJCn91.jpg" target="_blank">ICP证：浙B2-20100257</a>
+</div>
+<div class="server" id="ServerNum">
+  virtualprod.p27.alipay.net &nbsp; 
+</div><!-- CMS:版权结束:alipay/foot/copyright.vm -->        </div>
+    </div>
+</div>
+<!-- /public/component/footCommon.vm -->
+
+
+<div class="title">只带版要的尾</div>
+
+<div class="ui-footer-copyright">
+            <!-- CMS:版权开始:alipay/foot/copyright.vm --><style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+
+</style>
+<div class="copyright">
+  支付宝版权所有 2004-2012 
+  <a href="https://i.alipayobjects.com/e/201201/2PFHAJCn91.jpg" target="_blank">ICP证：浙B2-20100257</a>
+</div>
+<div class="server" id="ServerNum">
+  virtualprod.p27.alipay.net &nbsp; 
+</div><!-- CMS:版权结束:alipay/foot/copyright.vm -->        </div>
+
+
+
+
+<div class="title">独立频道，产品自定义页尾部分</div>
+<div class="ui-productfooter">
+<div class="ui-productfooter-ctn">
+    产品自定义尾部分
+</div>
+<!-- /public/component/footCommon.vm -->
+<style>
+.ui-footer {margin-top: 30px; border-top: 1px solid #cccccc; height: 100px; }
+.ui-footer .ui-separator{font-weight: normal;}
+.ui-footer-ctn {border-top: 1px solid #ffffff;padding-top: 15px;text-align: center;}
+.ui-footer-link a {padding: 0 3px 0 2px;}
+.ui-footer-copyright,.ui-footer-phone {padding-top: 10px;}
+.server{color:#fff;}
+</style>
+<div class="ui-footer fn-clear" coor="footer">
+    <div class="ui-footer-ctn">
+        <div class="ui-footer-link">
+            <a seed="foot-1" href="http://ab.alipay.com/index.htm?Nummain=13" title="关于支付宝" target="_blank">关于支付宝</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-1" href="http://qudao.alipay.com/" title="经销商体系" target="_blank">经销商体系</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-2" href="http://ue.alipay.com/" title="体验计划" target="_blank">体验计划</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-3" href="http://blog.alipay.com/" title="官方博客" target="_blank">官方博客</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-4" href="http://job.alipay.com/index.php" title="诚征英才" target="_blank">诚征英才</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-5" href="http://ab.alipay.com/index.htm?Nummain=31" title="联系我们" target="_blank">联系我们</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-6" href="http://global.alipay.com/" title="International Business" target="_blank">International Business</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-7" href="http://ab.alipay.com/index.htm?Nummain=34" title="About Alipay" target="_blank">About Alipay</a>
+        </div>
+                <div class="ui-footer-copyright">
+            <!-- CMS:版权开始:alipay/foot/copyright.vm --><style>
+.copyright,.copyright a,.copyright a:hover{color:#808080;}
+
+</style>
+<div class="copyright">
+  支付宝版权所有 2004-2012 
+  <a href="https://i.alipayobjects.com/e/201201/2PFHAJCn91.jpg" target="_blank">ICP证：浙B2-20100257</a>
+</div>
+<div class="server" id="ServerNum">
+  virtualprod.p27.alipay.net &nbsp; 
+</div><!-- CMS:版权结束:alipay/foot/copyright.vm -->        </div>
+    </div>
+</div>
+<!-- /public/component/footCommon.vm -->
+
+</div>
+
+
+<div class="title">主站尾样式</div>
+
+<div class="ui-footermain">
+
+<ul class="site-links" coor="site-links"> 
+		<li class="first"><a target="_blank" href="http://ab.alipay.com/index.htm?Nummain=13">关于支付宝</a> | </li> 
+		<li><a target="_blank" href="http://ue.alipay.com/">体验计划</a> | </li> 
+		<li><a target="_blank" href="http://blog.alipay.com">官方博客</a> | </li> 
+		<li><a target="_blank" href="http://job.alipay.com/index.php">诚征英才</a> | </li>
+
+		<li><a href="http://ab.alipay.com/i/lianxi.htm" target="_blank">联系我们</a> | </li>
+	    <li><a href="http://help.alipay.com/lab/help_detail.htm?help_id=212412" target="_blank">支付宝服务收费规则</a> | </li>
+		<li><a href="http://help.alipay.com/lab/help_detail.htm?help_id=211403" target="_blank">支付宝服务协议</a> | </li> 
+		<li><a target="_blank" href="http://global.alipay.com" seed="footer-global">International Business</a> | </li> 
+		<li><a target="_blank" href="https://www.alipay.com/static/aboutalipay/englishabout.htm">About Alipay</a></li> 
+	</ul> <!-- .site-links --> 
+	<p class="alibaba-links" coor="alibaba-links"> 
+		<a class="first" target="_blank" href="http://china.alibaba.com/">中国站</a> | 
+		<a target="_blank" href="http://www.alibaba.com/">国际站</a> |  
+		<a target="_blank" href="http://aliexpress.com/">全球速卖通</a> | 
+		<a target="_blank" href="http://www.alibaba.co.jp/">日文站</a> | 
+		<a target="_blank" href="http://www.taobao.com/">淘宝网</a> |
+		<a target="_blank" href="http://www.etao.com/">一淘网 </a> |
+		<a href="http://www.alipay.com/">支付宝</a> |
+		<a href="http://www.aliyun.com/">阿里云</a> |
+		<a target="_blank" href="http://www.yahoo.com.cn/">中国雅虎</a> | 
+		<a target="_blank" href="http://www.koubei.com/">口碑网</a> |  
+		<a target="_blank" href="http://www.alimama.com/">淘宝联盟</a> | 
+		<a target="_blank" href="http://www.aliresearch.com">阿里研究中心</a> |
+		<a target="_blank" href="http://www.alihz.com/wh/">阿里会展</a> 
+		<span class="smalipay">支付宝版权所有 2004-2012 <a href="https://i.alipayobjects.com/e/201201/2PFHAJCn91.jpg" target="_blank">ICP证：浙B2-20100257</a></span>
+
+				 
+	</p> <!-- .alibaba-links --> 
+	<ul class="security-links fn-clear"  coor="security-links">
+		<li><a title="支付业务许可证" target="_blank" href="https://img.alipay.com/common/notice/zfxkz.html" class="newIcon zfxkz">支付业务许可证</a></li>
+		<li class="pci-vertify"><a title="支付宝通过PCI认证" href="http://fun.alipay.com/certificate/index.htm" target="_blank">支付宝通过PCI认证</a></li>
+		<li class="newIcon visa"><span title="Visa 验证">Visa 验证</span></li>
+		<li><a title="VerSign加密服务" target="_blank" href="https://sealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=WWW.ALIPAY.COM&amp;lang=zh_cn" class="newIcon versign">VerSign加密服务</a></li>
+		<li><a title="浙江省网盟" target="_blank" href="http://zjnet.zjaic.gov.cn/index.action" class="zjswm">浙江省网盟</a></li>
+
+		<li><a title="网络工商" target="_blank" href="http://www.idinfo.cn/SignHandle?userID=3301002004003526" a="" class="wlgs">网络工商</a></li>
+		<li><a title="平平安安" target="_blank" href="http://www.pingpinganan.gov.cn" class="ppaa">平平安安</a></li>
+		<li><a title="杭州动态岗亭" target="_blank" href="http://www.pingpinganan.gov.cn" class="hzdtgt">杭州动态岗亭</a></li>
+		<li><a class="anfang" href="http://www.365anfang.com/" target="_blank" title="安全防范网">安全防范网</a></li>
+		<li><a title="电子商务协会认证诚信网站" target="_blank" href="http://search.szfw.org/cert/l/CX20111228001276001323" class="szfw-renzheng" oncontextmenu="return false">电子商务协会认证诚信网站</a></li>
+	</ul>
+
+
+
+</div>
+
+<script type="text/javascript">
+
+
+</script>
+</body>
+</html>

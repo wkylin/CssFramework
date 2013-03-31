@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">ui-tip</div>
+
+<!-- 成功提示 -->
+<div class="ui-tip ui-tip-success">
+    <div class="ui-tip-ctn">加载文件成功</div>
+</div>
+
+<!-- 禁止提示 -->
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">禁加跨域加载文件...</div>
+</div>
+
+<!-- 禁止提示 -->
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-ctn">禁加跨域加载文件...</div>
+</div>
+
+<!-- 信息提示 -->
+<div class="ui-tip ui-tip-cue">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">您的账户余额已用完，请及时充值。您的账户余额已用完，请及时充值。</div>
+</div>
+
+<!-- 信息提示 -->
+<div class="ui-tip ui-tip-cue">
+    <div class="ui-tip-ctn">该中心暂时关闭，无法进行操作。</div>
+</div>
+
+<!-- 警告提示 -->
+<div class="ui-tip ui-tip-warn">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">警告, 当前页面还未加载完成...</div>
+</div>
+
+<!-- 警告提示 -->
+<div class="ui-tip ui-tip-warn">
+    <div class="ui-tip-ctn">警告, 当前页面还未加载完成...</div>
+</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-error">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">请填写你想加载的文件列表</div>
+</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-error">
+    <div class="ui-tip-ctn">请填写你想加载的文件列表</div>
+</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-doubt">
+    <div class="ui-tip-ctn">这个是什么东西哇？</div>
+</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-wait">
+    <div class="ui-tip-ctn">正在加载中，请稍等。。。</div>
+</div>
+
+
+
+
+
+
+
+
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end layout -->
+
+<script type="text/javascript">
+
+
+</script>
+</body>
+</html>

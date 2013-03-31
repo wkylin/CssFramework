@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">
+    ui-tab
+</div>
+
+<div class="ui-tab">
+    <div class="ui-tab-trigger">
+        <h3 class="ui-tab-title">标题</h3>
+        <ul id="J_productDetailTab">
+            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                <span>选项一</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>选项一</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>选项三选项三选项三选</span>
+            </li>
+        </ul>
+        <span class="ui-tab-tool">
+            <a href="#">返回</a>
+        </span>
+    </div>
+    <div id="J_productDetailContent" class="ui-tab-ctn">
+        <div class="ui-tab-ctn-item ui-tab-ctn-item-current">选项一内容</div>
+        <div class="ui-tab-ctn-item">选项二内容</div>
+        <div class="ui-tab-ctn-item">选项三内容选项三内容</div>
+    </div>
+</div>
+
+<div class="ui-tab ui-tab-bottom fn-mt20">
+    <div id="J_tabctn1" class="ui-tab-ctn">
+        <div class="ui-tab-ctn-item ui-tab-ctn-item-current">选项一内容</div>
+        <div class="ui-tab-ctn-item">选项二内容</div>
+        <div class="ui-tab-ctn-item">选项三内容</div>
+    </div>
+    <div class="ui-tab-trigger">
+        <h3 class="ui-tab-title">标题</h3>
+        <ul id="J_tabtri1">
+            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                <span>选项一</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>选项二</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>选项三</span>
+            </li>
+        </ul>
+        <span class="ui-tab-tool">
+            <a href="#">返回</a>
+        </span>
+    </div>
+</div>
+
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end layout -->
+<script type="text/javascript" charset="utf-8" src="js/tab.js"></script>
+<script type="text/javascript">
+new Tab("J_productDetailTab", "J_productDetailContent", {
+    activeTriggerClass: 'ui-tab-trigger-item-current',
+    activeTriggerHoverClass:'ui-tab-trigger-item-hover',
+    activeViewClass: 'ui-tab-ctn-item-current',
+    defaultShow:true,
+    triggerEvent: "onclick"
+});
+
+new Tab("J_tabtri1", "J_tabctn1", {
+    activeTriggerClass: 'ui-tab-trigger-item-current',
+    activeTriggerHoverClass:'ui-tab-trigger-item-hover',
+    activeViewClass: 'ui-tab-ctn-item-current',
+    defaultShow:true,
+    triggerEvent: "onclick"
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-paging.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-cardreview.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-linear.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-dialog.css"/>
+
+    <!-- 代码高亮编辑器样式 -->
+    <link rel="stylesheet" href="editor/lib/codemirror.css">
+
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+        /** flash复制元件 */
+        #clipboard_movie_container {cursor:pointer;}
+
+        /** 代码高亮外层容器 */
+        .CodeMirror-scroll {
+            margin:0 auto;
+            height:auto;
+            overflow-y: hidden;
+            overflow-x: auto;
+            width: 100%;
+            text-shadow:0 1px 0 #FFFFFF;
+            color:#4d4d4d;
+            font:500 12px/1.5em Menlo,Monaco,"Courier New",monospace!important;
+            background-color:#F3F3F3;
+            border-top:1px solid #ddd;
+            border-bottom:1px solid #ddd;
+        }
+        .CodeMirror-gutter {
+            background-color:#fbfbfc;
+            border-color:#ddd;
+        }
+
+       /** 单个组件样式 */
+       .component-item {
+            padding:0 10px 10px;
+            border:2px solid #d8d8d8;
+            border-top-width:10px;
+            margin:0 0 10px;
+       }
+       .component-item h4 {
+        padding:10px 0 5px;
+        font-weight:700;
+        color:#6f6f6f;
+       }
+
+    .breadbox{
+        background-color: #FBFBFB;
+        border: 1px solid #DDDDDD;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 0 1px 0 #FFFFFF inset;
+        margin: 0 0 18px;
+        padding: 10px;
+    }
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">单个组件布局</div>
+
+<div class="component-item">
+    <dl>
+        <dt>交互说明：</dt>
+        <dd>信息提示组件做为对该页面的辅助说明。单向操作，出现在操作中，不会中断当前应用场景中的功能。</dd>
+    </dl>
+    <dl>
+        <dt>前端说明：</dt>
+        <dd>自适应宽度，可配置是否添加小三角标识，并通过样式控制小三角位置。有成功提示、禁止提示、信息提示、警告提示、错误提示、疑问提示、等待提示等类型。</dd>
+    </dl>
+    <!-- 成功提示 -->
+    <div class="ui-tip ui-tip-success">
+        <div class="ui-tip-ctn">加载文件成功</div>
+    </div>
+    <h4>源码</h4>
+    <div class="copy-area">
+<textarea class="ui-textarea" cols="10" rows="5">
+<div class="ui-tip ui-tip-success">
+    <div class="ui-tip-ctn">加载文件成功</div>
+</div></textarea>
+<div class="fn-mt10">
+    <span class="ui-button ui-button-sorange">
+        <button class="ui-button-text">复制源码</button>
+    </span>
+</div>
+    </div>
+</div>
+
+<div class="component-item">
+    <!-- 成功提示 -->
+    <div class="ui-tip ui-tip-forbidden">
+        <div class="ui-tip-ctn">禁止删除当前正在操作的用户!</div>
+    </div>
+    <h4>源码</h4>
+    <div class="copy-area">
+<textarea class="ui-textarea" cols="10" rows="5">
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-ctn">禁止删除当前正在操作的用户!</div>
+</div></textarea>
+<div class="fn-mt10">
+    <span class="ui-button ui-button-sorange">
+        <button class="ui-button-text">复制源码</button>
+    </span>
+</div>
+    </div>
+</div>
+
+<div class="component-item">
+    <!-- 成功提示 -->
+    <div class="ui-tip ui-tip-forbidden">
+        <div class="ui-tip-arrow"></div>
+        <div class="ui-tip-ctn">禁止删除当前正在操作的用户!</div>
+    </div>
+    <h4>带小箭头源码</h4>
+    <div class="copy-area">
+<textarea class="ui-textarea" cols="10" rows="5">
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">禁止删除当前正在操作的用户!</div>
+</div></textarea>
+<div class="fn-mt10">
+    <span class="ui-button ui-button-sorange">
+        <button class="ui-button-text">复制源码</button>
+    </span>
+</div>
+    </div>
+</div>
+
+
+
+</div>
+<!-- end content -->
+
+<div class="fn-hide">
+    <div id="J_copySuccess" class="ui-notice ui-notice-success">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">复制源码成功！</h3>
+            <p class="ui-notice-explain-other">
+                您现在可以通过ctrl+v快捷键将剪切板当中的源码粘贴到你的文档当中去了！
+            </p>
+        </div>
+    </div>
+    <div id="J_copyError" class="ui-notice ui-notice-error">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">复制失败！</h3>
+            <p class="ui-notice-explain-other">
+                复制源码内容为空或者复制源对象不存在！
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<div id="disqus_thread" class="breadbox"></div>
+
+</div>
+<!-- end layout -->
+
+<script src="editor/lib/codemirror.js"></script>
+<script src="editor/mode/xml/xml.js"></script>
+<script src="editor/mode/javascript/javascript.js"></script>
+<script src="editor/mode/css/css.js"></script>
+<script src="editor/mode/htmlmixed/htmlmixed.js"></script>
+
+</body>
+</html>

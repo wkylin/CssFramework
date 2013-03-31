@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">
+    ui-table
+</div>
+
+<div class="ui-table ui-table-bordertop fn-mt20">
+    <table cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="200"/>
+            <col width="200"/>
+            <col width="200"/>
+            <col />
+        </colgroup>
+        <thead>
+        <tr>
+            <th>
+                <a class="sort" href="#">序号</a>
+            </th>
+            <th>
+                <a class="sort" href="#">名称</a>
+            </th>
+            <th>
+                <a class="sort" href="#">简介</a>
+            </th>
+            <th>
+                <a class="sort" href="#">备注</a>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<form class="ui-form fn-mt20" action="#" method="post">
+    <div class="ui-form-item ui-form-item-normal">
+        <input class="ui-input" type="text" value="" name="dateStart" /> - 
+        <input class="ui-input" type="text" value="" name="dateEnd" />
+        <span class="ui-button ui-button-mblue"><input class="ui-button-text" type="submit" value="查 询" /></span>
+    </div>
+    <div class="ui-table">
+        <table cellpadding="0" cellspacing="0">
+            <colgroup>
+                <col width="10" />
+                <col width="200"/>
+                <col width="200"/>
+                <col width="200"/>
+                <col />
+            </colgroup>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>序号</th>
+                <th>名称</th>
+                <th>简介</th>
+                <th>备注</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" name="test" value="1" /></td>
+                    <td>90000</td>
+                    <td>兰坤</td>
+                    <td>111111111111111111</td>
+                    <td>江西体彩</td>
+                </tr>
+                <tr class="ui-table-spliter">
+                    <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" name="test" value="1" /></td>
+                    <td>90000</td>
+                    <td>兰坤</td>
+                    <td>111111111111111111</td>
+                    <td>江西体彩</td>
+                </tr>
+                <tr>
+                    <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" name="test" value="1" /></td>
+                    <td>90000</td>
+                    <td>兰坤</td>
+                    <td>111111111111111111</td>
+                    <td>江西体彩</td>
+                </tr>
+                <tr class="ui-table-spliter">
+                    <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" name="test" value="1" /></td>
+                    <td>90000</td>
+                    <td>兰坤</td>
+                    <td>111111111111111111</td>
+                    <td>江西体彩</td>
+                </tr>
+                <tr>
+                    <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" name="test" value="1" /></td>
+                    <td>90000</td>
+                    <td>兰坤</td>
+                    <td>111111111111111111</td>
+                    <td>江西体彩</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+
+
+<div class="ui-table fn-mt20">
+    <table cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="200"/>
+            <col width="200"/>
+            <col width="200"/>
+            <col />
+        </colgroup>
+        <caption>
+            <span class="ui-table-caption">我的交易记录</span>
+            <span class="ui-table-tool fn-left">
+                <a href="#">记录查询</a><span class="ft-bar">|</span>
+                <a href="#">退款管理</a><span class="ft-bar">|</span>
+                <a href="#">充提记录</a><span class="ft-bar">|</span>
+                <a href="#">电子对账单</a>
+            </span>
+        </caption>
+        <tbody>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="ui-table-foot">
+                <td colspan="4" class="ft-right">
+                    注：您最近有<a href="#">48</a>笔消费记录，<a href="#">5</a>笔待处理。<a href="#">&gt;&gt;查看所有消费记录</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+<div class="ui-table fn-mt20">
+    <table cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="200"/>
+            <col width="200"/>
+            <col width="200"/>
+            <col />
+        </colgroup>
+        <caption>
+            <span class="ui-table-caption">我的交易记录</span>
+            <span class="ui-table-tool fn-right">
+                <a href="#">记录查询</a><span class="ft-bar">|</span>
+                <a href="#">退款管理</a><span class="ft-bar">|</span>
+                <a href="#">充提记录</a><span class="ft-bar">|</span>
+                <a href="#">电子对账单</a>
+            </span>
+        </caption>
+        <tbody>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+            <tr>
+                <td>90000</td>
+                <td>兰坤</td>
+                <td>111111111111111111</td>
+                <td>江西体彩</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="ui-table-foot">
+                <td colspan="4">
+                    注：您最近有<a href="#">48</a>笔消费记录，<a href="#">5</a>笔待处理。<a href="#">&gt;&gt;查看所有消费记录</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+
+<div class="ui-table fn-mt20">
+    <table cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="100"/>
+            <col width="500"/>
+            <col width="70"/>
+            <col width="70"/>
+            <col />
+        </colgroup>
+        <caption>
+            <span class="ui-table-caption">我的交易记录</span>
+            <span class="ui-table-tool fn-left">
+                <a href="#">记录查询</a><span class="ft-bar">|</span>
+                <a href="#">退款管理</a><span class="ft-bar">|</span>
+                <a href="#">充提记录</a><span class="ft-bar">|</span>
+                <a href="#">电子对账单</a>
+            </span>
+        </caption>
+        <tbody>
+            <tr>
+                <td>2011-09-13</td>
+                <td><a href="#">信用卡还款</a></td>
+                <td><span class="ft-orange">-370.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">付款</a><span class="ft-bar">|</span>
+                        <a href="#">关闭交易</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a><span class="ft-bar">|</span>
+                        <a href="#">找人代付</a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>2011-09-13</td>
+                <td><a href="#">AA收款</a></td>
+                <td><span class="ft-green">+ 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">退款</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a><span class="ft-bar">|</span>
+                        <a href="#">找人代付</a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>2011-09-13</td>
+                <td><a href="#">淘宝购物-xxx淘宝购物</a></td>
+                <td><span class="ft-orange">- 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">退款</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a>
+                    </span>
+                </td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td>2011-09-13</td>
+                <td><a href="#">AA收款</a></td>
+                <td><span class="ft-green">+ 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">退款</a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>2011-09-13</td>
+                <td><a href="#">淘宝购物-xxx淘宝购物</a></td>
+                <td><span class="ft-orange">- 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">退款</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a>
+                    </span>
+                </td>
+            </tr>
+
+            <tr class="ui-table-spliter">
+                <td>2011-09-13</td>
+                <td><a href="#">AA收款</a></td>
+                <td><span class="ft-green">+ 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">退款</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a><span class="ft-bar">|</span>
+                        <a href="#">找人代付</a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td>2011-09-13</td>
+                <td><a href="#">淘宝购物-xxx淘宝购物</a></td>
+                <td><span class="ft-orange">- 6.00</span> 元</td>
+                <td>等待付款</td>
+                <td>
+                    <span class="ui-table-tool fn-right">
+                        <a href="#">付款</a><span class="ft-bar">|</span>
+                        <a href="#">关闭交易</a><span class="ft-bar">|</span>
+                        <a href="#">详情</a><span class="ft-bar">|</span>
+                        <a href="#">找人代付</a>
+                    </span>
+                </td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr class="ui-table-foot">
+                <td colspan="5" class="ft-left">
+                    注：您最近有<a href="#">48</a>笔消费记录，<a href="#">5</a>笔待处理。<a href="#">&gt;&gt;查看所有消费记录</a>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+
+
+
+<div class="ui-table fn-mt20">
+    <table cellpadding="0" cellspacing="0">
+        <colgroup>
+            <col width="10" />
+            <col width="30" />
+            <col width="700" />
+        </colgroup>
+        <tbody>
+            <tr>
+                <td colspan="4" class="ui-table-explain">以下是最近3个月内有过交易的记录列表。</td>
+            </tr>
+            <tr>
+                <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                <td class="fn-pr0"><img class="user-img" src="images/user-img.png" alt="" /></td>
+                <td>
+                    <span class="user-name">张三</span> <br />moumoumou@alipay.com
+                </td>
+                <td class="ft-right">
+                        <div class="ui-table-tool">
+                            <span class="ui-table-tool-title">向他：</span>
+                            <a href="#">付款</a><span class="ft-bar">|</span>
+                            <a href="#">收款</a><span class="ft-bar">|</span>
+                            <a href="#">交易记录</a>
+                        </div>
+                        <div class="ui-table-tool">
+                            <a href="#">+保存为联系人</a>
+                        </div>
+                </td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                <td class="fn-pr0"><img class="user-img" src="images/user-img.png" alt="" /></td>
+                <td>
+                    <span class="user-name">李四</span> <br />moumoumou@alipay.com
+                </td>
+                <td class="ft-right">
+                        <div class="ui-table-tool">
+                            <span class="ui-table-tool-title">向他：</span>
+                            <a href="#">付款</a><span class="ft-bar">|</span>
+                            <a href="#">收款</a><span class="ft-bar">|</span>
+                            <a href="#">交易记录</a>
+                        </div>
+                        <div class="ui-table-tool">
+                            <a href="#">+保存为联系人</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                <td class="fn-pr0"><img class="user-img" src="images/user-img.png" alt="" /></td>
+                <td>
+                    <span class="user-name">王五</span> <br />moumoumou@alipay.com
+                </td>
+                <td class="ft-right">
+                        <div class="ui-table-tool">
+                            <span class="ui-table-tool-title">向他：</span>
+                            <a href="#">付款</a><span class="ft-bar">|</span>
+                            <a href="#">收款</a><span class="ft-bar">|</span>
+                            <a href="#">交易记录</a>
+                        </div>
+                        <div class="ui-table-tool">
+                            <a href="#">+保存为联系人</a>
+                        </div>
+                </td>
+            </tr>
+            <tr class="ui-table-spliter">
+                <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                <td class="fn-pr0"><img class="user-img" src="images/user-img.png" alt="" /></td>
+                <td>
+                    <span class="user-name">老六</span> <br />moumoumou@alipay.com
+                </td>
+                <td class="ft-right">
+                        <div class="ui-table-tool">
+                            <span class="ui-table-tool-title">向他：</span>
+                            <a href="#">付款</a><span class="ft-bar">|</span>
+                            <a href="#">收款</a><span class="ft-bar">|</span>
+                            <a href="#">交易记录</a>
+                        </div>
+                        <div class="ui-table-tool">
+                            <a href="#">+保存为联系人</a>
+                        </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                <td class="fn-pr0"><img class="user-img" src="images/user-img.png" alt="" /></td>
+                <td>
+                    <span class="user-name">某七</span> <br />moumoumou@alipay.com
+                </td>
+                <td class="ft-right">
+                        <div class="ui-table-tool">
+                            <span class="ui-table-tool-title">向他：</span>
+                            <a href="#">付款</a><span class="ft-bar">|</span>
+                            <a href="#">收款</a><span class="ft-bar">|</span>
+                            <a href="#">交易记录</a>
+                        </div>
+                        <div class="ui-table-tool">
+                            <a href="#">+保存为联系人</a>
+                        </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end layout -->
+
+<script type="text/javascript" charset="utf-8" src="http://dev.assets.alipay.net/ar/arale.core-1.1.js"></script>
+<script type="text/javascript">
+(function(){
+
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+        .contact {
+            float:left;
+            margin:0 10px 0 0;
+            display:inline;
+            width:350px;
+            border:1px solid #ccc;
+        }
+        .contact .ui-tab-trigger {
+            padding-top:10px;
+            background-color:#fafafa;
+        }
+
+        .contact .ui-table {
+            border:none;
+        }
+
+        .contact .ui-tab-ctn {
+            height:301px;
+            overflow:auto;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">
+    contact
+</div>
+
+<div class="ui-tab contact">
+    <div class="ui-tab-trigger">
+        <ul id="J_productDetailTab" class="fn-ml10">
+            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                <span>最近交易的</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>我的联系人(10)</span>
+            </li>
+        </ul>
+    </div>
+    <div id="J_productDetailContent" class="ui-tab-ctn">
+        <div class="ui-tab-ctn-item ui-tab-ctn-item-current">
+            <div class="ui-table">
+                <table>
+                    <colgroup>
+                        <col width="10" />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="ui-tab-ctn-item">
+            <div class="ui-table">
+                <table>
+                    <colgroup>
+                        <col width="10" />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-checkbox" type="checkbox" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="ui-tab contact">
+    <div class="ui-tab-trigger">
+        <ul id="J_productDetailTab0" class="fn-ml10">
+            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                <span>最近交易的</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <span>我的联系人(10)</span>
+            </li>
+        </ul>
+    </div>
+    <div id="J_productDetailContent0" class="ui-tab-ctn">
+        <div class="ui-tab-ctn-item ui-tab-ctn-item-current">
+            <div class="ui-table">
+                <table>
+                    <colgroup>
+                        <col width="10" />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="ui-tab-ctn-item">
+            <div class="ui-table">
+                <table>
+                    <colgroup>
+                        <col width="10" />
+                        <col />
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr>
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                        <tr class="set-bg-color">
+                            <td class="fn-pr0"><input class="ui-radio" type="radio" value="1" /></td>
+                            <td>某某(moumou@alipay.com)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end layout -->
+<script type="text/javascript" charset="utf-8" src="js/tab.js"></script>
+<script type="text/javascript">
+new Tab("J_productDetailTab", "J_productDetailContent", {
+    activeTriggerClass: 'ui-tab-trigger-item-current',
+    activeTriggerHoverClass:'ui-tab-trigger-item-hover',
+    activeViewClass: 'ui-tab-ctn-item-current',
+    defaultShow:true,
+    triggerEvent: "onclick"
+});
+
+new Tab("J_productDetailTab0", "J_productDetailContent0", {
+    activeTriggerClass: 'ui-tab-trigger-item-current',
+    activeTriggerHoverClass:'ui-tab-trigger-item-hover',
+    activeViewClass: 'ui-tab-ctn-item-current',
+    defaultShow:true,
+    triggerEvent: "onclick"
+});
+
+</script>
+</body>
+</html>

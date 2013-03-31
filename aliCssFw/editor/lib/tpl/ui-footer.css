@@ -1,0 +1,11 @@
+/**
+ * @name: ui-footer
+ * @author: wkylin(wkylin@sina.cn)
+ * @description: 底部样式
+ * @require: null
+*/
+.ui-footer {margin-top: 30px; border-top: 1px solid #cccccc; height: 100px; }
+.ui-footer-ctn {border-top: 1px solid #ffffff;padding-top: 15px;text-align: center;}
+.ui-footer-link a {padding: 0 3px 0 2px;}
+.ui-footer-copyright,.ui-footer-phone {padding-top: 10px;}
+.server{color:#fff;}

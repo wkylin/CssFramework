@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+        .breakword {
+            width: 960px;
+            margin: 0 auto;
+            border: 1px solid red;
+            height: 40px;
+            padding: 5px;
+            word-wrap: break-word;
+            word-break: break-all;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+<div class="title">
+    ui-form
+</div>
+
+<form action="#" method="post" enctype="multipart/form-data" class="ui-form fn-mt20" id="J_uiForm">
+    <div class="ui-form-item ui-form-success">
+        <label class="ui-label"><span class="required">*</span>网点编号：</label>
+        <input type="text" class="ui-input ui-input-focus" name="wang" value="输入内容"/>
+
+        <div class="ui-form-explain">提示信息</div>
+    </div>
+    <div class="ui-form-item ui-form-error">
+        <label class="ui-label"><span class="required">*</span>批次号：</label>
+        <input type="text" class="ui-input" value="" name="pici"/>
+
+        <div class="ui-form-explain">请填写批次号</div>
+    </div>
+    <div class="ui-form-item ui-form-doubt">
+        <label class="ui-label"><span class="required">*</span>所属中心：</label>
+
+        <div class="ui-form-text">
+            <select class="ui-select " name="select">
+                <option value="Please Select" selected="selected">Please Select</option>
+                <option value="sleect2">sleect2</option>
+                <option value="sleect3">sleect3</option>
+                <option value="sleect4">sleect4</option>
+                <option value="sleect5">sleect5</option>
+                <option value="sleect6">sleect6</option>
+            </select>
+        </div>
+        <div class="ui-form-explain">中心是什么？</div>
+    </div>
+    <div class="ui-form-item ui-form-doubt">
+        <label class="ui-label"><span class="required">*</span>搜索引擎：</label>
+
+        <div class="ui-form-text">
+            <select class="ui-select " name="engine">
+                <option value="Search engine" selected="selected">Search engine</option>
+                <option value="baidu">百度</option>
+                <option value="GOOGLE">GOOGLE</option>
+                <option value="BING">BING</option>
+                <option value="SOSO">SOSO</option>
+            </select>
+        </div>
+        <div class="ui-form-explain">搜索引擎是什么？</div>
+    </div>
+    <div class="ui-form-item ui-form-forbidden">
+        <label class="ui-label"><span class="required">*</span>请选择性别：</label>
+
+        <div class="ui-form-text ">
+            <input id="mano" type="radio" class="ui-radio" name="sex" value="0"/>
+            <label class="ui-radio-label" for="mano">0</label>
+            <input id="womano" type="radio" class="ui-radio" name="sex" value="1"/>
+            <label class="ui-radio-label" for="womano">1</label>
+        </div>
+        <div class="ui-form-explain">您跨过前端校验填写了错误的第三性别！</div>
+    </div>
+    <div class="ui-form-item ui-form-forbidden">
+        <label class="ui-label"><span class="required">*</span>请选择下载方式：</label>
+
+        <div class="ui-form-text ">
+            <input id="zip" type="radio" class="ui-radio" name="down" value="ZIP"/>
+            <label class="ui-radio-label" for="zip">ZIP</label>
+            <input id="ssh" type="radio" class="ui-radio" name="down" value="SSH"/>
+            <label class="ui-radio-label" for="ssh">SSH</label>
+        </div>
+        <div class="ui-form-explain">您跨过前端校验填写了第三方下载方式！</div>
+    </div>
+    <div class="ui-form-item ui-form-warn">
+        <label class="ui-label">请选择联系方式：</label>
+
+        <div class="ui-form-text ">
+            <input id="po" type="checkbox" class="ui-checkbox" name="p" value="QQ"/>
+            <label class="ui-checkbox-label" for="po">QQ</label>
+            <input id="yo" type="checkbox" class="ui-checkbox" name="y" value="MSN"/>
+            <label class="ui-checkbox-label" for="yo">MSN</label>
+            <input id="ho" type="checkbox" class="ui-checkbox" name="h" value="EMAIL"/>
+            <label class="ui-checkbox-label" for="ho">EMAIL</label>
+        </div>
+        <div class="ui-form-explain">请选择联系方式！</div>
+    </div>
+    <div class="ui-form-item ui-form-warn">
+        <label class="ui-label">请选择爱好：</label>
+
+        <div class="ui-form-text ">
+            <input id="p" type="checkbox" class="ui-checkbox" name="p" value="panshan"/>
+            <label class="ui-checkbox-label" for="p">爬山</label>
+            <input id="y" type="checkbox" class="ui-checkbox" name="y" value="youyong"/>
+            <label class="ui-checkbox-label" for="y">游泳</label>
+            <input id="h" type="checkbox" class="ui-checkbox" name="h" value="huwai"/>
+            <label class="ui-checkbox-label" for="h">户外</label>
+            <input id="q" type="checkbox" class="ui-checkbox" name="q" value="qiche"/>
+            <label class="ui-checkbox-label" for="q">骑车</label>
+        </div>
+        <div class="ui-form-explain">请选择您的爱好！</div>
+    </div>
+    <div class="ui-form-item ui-form-cue">
+        <label class="ui-label">创建时间：</label>
+        <input type="text" class="ui-input ui-input-hover" name="startTime"/>
+        <span class="ui-form-spliter">到</span>
+        <input type="text" class="ui-input" name="endTime"/>
+
+        <div class="ui-form-explain">起始日期, 格式为 yy-mm-dd</div>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label">银行卡号：</label>
+        <input id="J_card" type="text" class="ui-input ui-input-banknum" name="card" value="2658976562368888"/>
+    </div>
+    <div class="ui-form-item ui-form-wait">
+        <label class="ui-label"><span class="required">*</span>输入密码：</label>
+        <input class="ui-input ui-input-disabled" type="text" value="" name="pwd" disabled="disabled"/>
+                    <span class="ui-form-link">
+                        <a href="#">忘记密码</a>
+                    </span>
+
+        <div class="ui-form-explain">密码正在校验中，请稍候。。。</div>
+    </div>
+    <div class="ui-form-item ui-form-wait">
+        <label class="ui-label"><span class="required">*</span>输入密码：</label>
+        <input class="ui-input" type="password" value="" name="pwd"/>
+                    <span class="ui-form-link">
+                        <a href="#">忘记密码</a>
+                    </span>
+
+        <div class="ui-form-explain">密码正在校验中，请稍候。。。</div>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>上传文件：</label>
+
+        <div class="ui-form-file">
+            <input type="file" name="attach" class="ui-input-file"/>请选择上传文件
+        </div>
+        <div class="ui-form-explain">程序将自动生成大中小三张头像图片</div>
+
+    </div>
+    <div class="ui-form-item ui-form-item-last">
+                    <span class="ui-button ui-button-mblue ui-button-mblue-next">
+                        <input class="ui-button-text" type="button" id="J_submit" value="下一步"/>
+                        <span class="ui-button-icon"></span>
+                    </span>
+    </div>
+</form>
+<div id="J_re" class="breakword"></div>
+
+<div class="title">
+    ui-form (垂直)
+</div>
+<form action="#" id="J_vForm" method="post" class="ui-form ui-form-vertical fn-mt20">
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>网点编号：</label>
+        <input type="text" class="ui-input" name="wb"/>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>批次号：</label>
+        <input type="text" class="ui-input" name="ww"/>
+    </div>
+    <div class="ui-form-item ui-form-item-time">
+        <label class="ui-label">创建时间：</label>
+        <input type="text" class="ui-input" name="wx"/>
+        <span class="ui-form-spliter">到</span>
+        <input type="text" class="ui-input" name="we"/>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>所属中心：</label>
+
+        <div class="ui-form-text">
+            <select class="ui-select" name="centerName">
+                <option value="2222" selected="selected">请选择相应的中心</option>
+                <option value="900">900</option>
+                <option value="800">800</option>
+            </select>
+        </div>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>请选择性别：</label>
+
+        <div class="ui-form-text">
+            <input id="first" type="radio" class="ui-radio" name="sex" value="1"/><label class="ui-radio-label"
+                                                                                         for="first">男</label>
+            <input id="second" type="radio" class="ui-radio" name="sex" value="0"/><label class="ui-radio-label"
+                                                                                          for="second">女</label>
+        </div>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label">请选择爱好：</label>
+
+        <div class="ui-form-text">
+            <input id="a" type="checkbox" class="ui-checkbox" name="a" value="1"/><label class="ui-checkbox-label"
+                                                                                         for="a">爬山</label>
+            <input id="b" type="checkbox" class="ui-checkbox" name="b" value="2"/><label class="ui-checkbox-label"
+                                                                                         for="b">游泳</label>
+            <input id="c" type="checkbox" class="ui-checkbox" name="c" value="3"/><label class="ui-checkbox-label"
+                                                                                         for="c">户外</label>
+            <input id="d" type="checkbox" class="ui-checkbox" name="d" value="4"/><label class="ui-checkbox-label"
+                                                                                         for="d">骑车</label>
+        </div>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label"><span class="required">*</span>输入密码：</label>
+        <input class="ui-input" type="text" value="" name="pwd"/>
+                    <span class="ui-form-link">
+                        <a href="#">忘记密码</a>
+                    </span>
+    </div>
+    <div class="ui-form-item ui-form-item-last">
+                    <span class="ui-button ui-button-mblue ui-button-mblue-next">
+                        <input class="ui-button-text" type="button" id="J_vFormSubmit" value="下一步"/>
+                        <span class="ui-button-icon"></span>
+                    </span>
+    </div>
+</form>
+<div id="J_vFormRe" style="width:960px; margin:0 auto;border:1px solid red;height:40px; padding:5px;"
+     class="breakword"></div>
+<div class="title">
+    表单添加
+</div>
+<form action="#" method="post" class="ui-form fn-mt20">
+    <div class="ui-form-item">
+        <label class="ui-label">网点编号：</label>
+        <input type="text" class="ui-input"/>
+        <a href="#" class="ui-button ui-button-swhite add-btn"><span class="ui-button-text">点击添加</span></a>
+
+        <div class="fn-mt10">
+            <input type="text" class="ui-input"/>
+                        <span class="ui-form-link">
+                            <a class="ui-input-del" href="#">删除</a>
+                        </span>
+        </div>
+        <a class="ui-input-add" href="#">点击添加</a>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label">银行卡号：</label>
+        <input id="J_card" type="text" class="ui-input ui-input-banknum" value="2658976562368888"/>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label">提现金额：</label>
+        <input type="text" class="ui-input ui-input-amount" value="1234.68"/>
+    </div>
+    <div class="ui-form-item">
+        <label class="ui-label">备注内容：</label>
+        <textarea class="ui-textarea" cols="30" rows="10"></textarea>
+    </div>
+    <div class="ui-form-item ui-form-item-last">
+                    <span class="ui-button ui-button-mblue ui-button-mblue-next">
+                        <input class="ui-button-text" type="submit" value="下一步"/>
+                        <span class="ui-button-icon"></span>
+                    </span>
+    </div>
+</form>
+</div>
+<!-- end content -->
+</div>
+<!-- end layout -->
+
+<script type="text/javascript" charset="utf-8" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/jquery-ui-form.js"></script>
+
+
+<script type="text/javascript" charset="utf-8">
+
+    $("#J_submit").click(function () {
+        $("#J_re").text($("#J_uiForm").serialize());
+    });
+    $("#J_vFormSubmit").click(function () {
+        $("#J_vFormRe").text($("#J_vForm").serialize());
+    });
+
+</script>
+</body>
+</html>

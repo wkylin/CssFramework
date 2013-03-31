@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-nav.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="header.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+       
+header, nav, article, section, aside, footer, figure {
+    display: block;
+}
+
+    </style>
+</head>
+
+<body>
+<div style="width:990px; margin:0 auto">
+
+<div class="title">未登录状态 </div>
+
+<div id="site-nav" class="site-nav the-alipay-global">
+            <div coor="top" class="site-con ">
+                <h2>欢迎访问支付宝!</h2>
+                <div class="site-meta">
+
+<div class="global-toplink">
+
+	    	<a seed="global-header-login" href="http://authcenter.alipay.net/login/index.htm?goto=http://virtualprod.p27.alipay.net/lottery/index.htm">登录</a>
+    	<em class="global-separator">-</em>
+    	<a seed="global-header-register" href="http://personal.stable.alipay.net/user/reg/index.htm">注册</a>
+    	<em class="global-separator">|</em>
+        
+    			<div class="global-dropdown" id="global-header-i">
+	        <div class="global-dropdown-hd">
+	            <div class="global-dropdown-hd-normal">
+	                <a seed="global-i-i" class="global-toplink-i" href="http://personal.stable.alipay.net/user/i.htm">我的支付宝</a>
+	            </div>
+	        </div>
+	        <div class="global-dropdown-bd global-dropdown-bd-pl sl-alpha fn-hide">
+	            <div class="global-dropdown-bd-cnt global-dropdown-i">
+	            	<ul class="global-list" id="global-list-i">
+		                <li><a target="_blank" seed="global-i-account" href="http://personal.stable.alipay.net/user/assets/index.htm">账户管理</a></li>
+		                <li><a seed="global-i-record" target="_blank" href="http://personal.stable.alipay.net/consume/record/index.htm">交易记录</a></li>
+		                <li><a target="_blank" seed="global-i-security" href="http://securitycenter.alipay.com/sc/index.htm">安全中心</a></li>
+		                <li><a target="_blank" seed="global-i-benefit" href="http://huiyuan.alipay.com/benefits/index.htm">会员专享</a></li>
+		                <li><a target="_blank" seed="global-i-appstore" href="http://app.alipay.com">应用中心</a></li>
+	                </ul>
+	            </div>
+	        </div><!-- .global-dropdown-bd -->
+	    </div><!-- #global-dropdown-i -->
+	    <em class="global-separator">|</em>
+		
+		
+						    	<a target="_blank" seed="global-header-help" href="http://help.alipay.com">帮助中心</a>
+    	<em class="global-separator">|</em>	
+	    
+    	        <a target="_blank" seed="global-header-egg" href="http://egg.alipay.com/">提建议</a>
+    <em class="global-separator">|</em>
+
+    <div class="global-dropdown" id="global-header-more">
+        <div class="global-dropdown-hd">
+            <div class="global-dropdown-hd-normal">
+                <a seed="global-more-link" class="global-toplink-more" href="#">更多</a>
+            </div>
+        </div>
+        <div class="global-dropdown-bd global-dropdown-bd-pr sl-alpha fn-hide">
+            <div class="global-dropdown-bd-cnt global-dropdown-more">
+                <ul class="global-list" id="global-list-more">
+                    <!-- CMS:more开始:alipay/nav/more.vm -->      <li><a target="_blank" seed="global-more-wa" title="哇!支付宝" href="http://life.alipay.com">哇!支付宝</a></li>
+      <li><a target="_blank" seed="global-more-mobile" title="手机支付" href="http://mobile.alipay.com/">手机支付</a></li>
+      <li><a target="_blank" seed="global-more-finance" title="理财专区" href="https://financeprod.alipay.com/account/index.htm">理财专区</a></li>
+      <li><a target="_blank" seed="global-more-merchant" title="商家服务" href="https://b.alipay.com/product/package.htm?src=person_alipay_001">商家服务</a></li>
+      <li><a target="_blank" seed="global-more-club" title="论坛" href="http://club.alipay.com/">论坛</a></li>
+      <li><a target="_blank" seed="global-more-home" title="返回支付宝首页" href="https://www.alipay.com">返回支付宝首页</a></li>
+  <!-- CMS:more结束:alipay/nav/more.vm -->                </ul>
+            </div>
+        </div>
+    </div><!-- #global-dropdown-more -->
+
+    <div class="fn-hide" id="global-nav-container">
+        <ul id="global-list-msg-confirm">
+            <li data-id="" class="global-list-comfirm fn-hide" id="global-msg-confirm">
+                <p class="global-list-comfirm-txt">此条消息非常重要，确定标记为已读么？</p>
+                <a class="global-button global-button-sorange" id="global-msg-confirm-ok" href="#">
+                    <span seed="global-msg-ok" class="global-button-text">确 定</span>
+                </a>
+                <a class="global-button global-button-swhite" id="global-msg-confirm-cancel" href="#">
+                    <span seed="global-msg-cancel" class="global-button-text">取 消</span>
+                </a>
+            </li>
+        </ul>
+        <!--[if lt IE 7]>
+        <iframe src="javascript:''" id="global-dropdown-frame" frameborder="0"></iframe>
+        <![endif]-->
+    </div>
+
+</div><!-- .global-toplink -->
+
+                </div>
+            </div>
+        </div>
+
+<div class="header">
+    <div coor="head" class="header-cnt">
+        <h1 class="fn-left"><a target="_self" href="http://virtualprod.p27.alipay.net/lottery/index.htm"><img width="236px" height="46px" src="https://i.alipayobjects.com/e/201202/29lGgg4nLN.png" alt="支付宝彩票缴款通"></a></h1>
+    </div>
+	<nav class="header-nav fn-left">
+				<ul class="header-ul">
+					<li class="header-li  nav-active"><a class="header-li-a" href="https://b.alipay.com/newIndex.htm" seed="headerLi-headerLiA" smartracker="on">首页</a></li>
+					<li class="header-li "> <a class="header-li-a" href="https://b.alipay.com/order/productIndex.htm" seed="headerLi-headerLiAT1" smartracker="on">产品商店</a>
+						<ul class="sub-nav-ul">
+							<li class="sub-nav-li"><a href="https://b.alipay.com/order/productIndex.htm" seed="subNavLi-link" smartracker="on">商店首页</a></li>
+							<li class="sub-nav-li"><a href="https://b.alipay.com/order/productSet.htm" seed="subNavLi-linkT1" smartracker="on">产品大全</a></li>
+						</ul>
+					</li>
+										<li class="header-li no-right-border "><a class="header-li-a " target="_blank" href="https://b.alipay.com/order/serviceIndex.htm" seed="headerLi-headerLiAT2" smartracker="on">我的商家服务</a></li>
+				</ul>
+			</nav>
+</div>
+
+
+
+
+<div class="title">已登录状态</div>
+
+<div id="site-nav" class="site-nav the-alipay-global">
+            <div coor="top" class="site-con ">
+                <h2>欢迎访问支付宝!</h2>
+                <div class="site-meta">
+<div class="global-toplink">
+		    <div class="global-dropdown" id="global-header-user">
+	        <div class="global-dropdown-hd">
+                <div class="global-dropdown-hd-normal">
+                    <a class="global-toplink-user" href="#">
+                        <span title="贺明德" class="global-toplink-username" id="global-toplink-username">王金刚</span>
+                    </a>
+                </div>
+	        </div>
+	        <div class="global-dropdown-bd global-dropdown-bd-pl sl-alpha fn-hide">
+	            <div class="global-dropdown-bd-cnt global-dropdown-user">
+	                <h3 title="hmd1@alitest.com" id="global-username" class="global-tit">hmd1@alitest.com</h3>
+	                <div class="global-button-box">
+                        <a target="_blank" class="global-button global-button-morange" href="http://personal.stable.alipay.net/user/depositDelegateController.htm">
+                            <span seed="global-button-deposit" class="global-button-text">充 值</span>
+                        </a>
+                        <a target="_blank" class="global-button global-button-mwhite" href="http://memberprod.stable.alipay.net/fund/withdraw/apply.htm">
+                            <span seed="global-button-withdraw" class="global-button-text">提 现</span>
+                        </a>
+	                </div>
+                    <div data-user="" class="fn-hide" id="global-users">
+                        <h3 class="global-tit global-tit-line">切换用户</h3>
+                        <ul class="global-list global-loading" id="global-list-user"></ul>
+                    </div>
+	            </div>
+	        </div><!-- .global-dropdown-bd -->
+	    </div><!-- #global-dropdown-user -->
+	
+	    <em class="global-separator">|</em>
+	
+	    <div data-msg="Y" class="global-dropdown" id="global-header-msg">
+	        <div class="global-dropdown-hd">
+	            <div class="global-dropdown-hd-msg">
+                    <a target="_blank" seed="global-msg" class="global-toplink-msg" href="http://memberprod.stable.alipay.net/messager/new.htm">消息<span class="global-toplink-msgCount">0</span></a>
+	            </div>
+	        </div>
+	        <div class="global-dropdown-bd global-dropdown-bd-pl sl-alpha fn-hide">
+	            <div class="global-dropdown-bd-cnt global-dropdown-msg">
+	                <h3 class="global-tit global-tit-line">
+	                    <div class="global-tit-action">
+	                        <a seed="global-msg-isee" id="global-msg-isee" href="#">我知道了</a>
+	                    </div>
+	                    您有<a seed="global-msg-entry" target="_blank" class="global-tit-link global-toplink-msgCount" href="http://memberprod.stable.alipay.net/messager/new.htm">0</a>条未读消息
+	                </h3>
+                    <ul class="global-list global-loading" id="global-list-msg"></ul>
+	            </div>
+	        </div>
+	    </div><!-- #global-dropdown-user -->
+
+	    <em class="global-separator">|</em>
+	    <a seed="global-header-logout" href="http://authcenter.alipay.net/login/logout.htm?goto=http%3A%2F%2Fvirtualprod.p27.alipay.net%2Flottery%2ForgIndex.htm">退出</a>
+	    <em class="global-separator">|</em>
+        
+    			<div class="global-dropdown" id="global-header-i">
+	        <div class="global-dropdown-hd">
+	            <div class="global-dropdown-hd-normal">
+	                <a seed="global-i-i" class="global-toplink-i" href="http://personal.stable.alipay.net/user/i.htm">我的支付宝</a>
+	            </div>
+	        </div>
+	        <div class="global-dropdown-bd global-dropdown-bd-pl sl-alpha fn-hide">
+	            <div class="global-dropdown-bd-cnt global-dropdown-i">
+	            	<ul class="global-list" id="global-list-i">
+		                <li><a target="_blank" seed="global-i-account" href="http://personal.stable.alipay.net/user/assets/index.htm">账户管理</a></li>
+		                <li><a seed="global-i-record" target="_blank" href="http://personal.stable.alipay.net/consume/record/index.htm">交易记录</a></li>
+		                <li><a target="_blank" seed="global-i-security" href="http://securitycenter.alipay.com/sc/index.htm">安全中心</a></li>
+		                <li><a target="_blank" seed="global-i-benefit" href="http://huiyuan.alipay.com/benefits/index.htm">会员专享</a></li>
+		                <li><a target="_blank" seed="global-i-appstore" href="http://app.alipay.com">应用中心</a></li>
+	                </ul>
+	            </div>
+	        </div><!-- .global-dropdown-bd -->
+	    </div><!-- #global-dropdown-i -->
+	    <em class="global-separator">|</em>
+		
+		
+						    	<a target="_blank" seed="global-header-help" href="http://help.alipay.com">帮助中心</a>
+    	<em class="global-separator">|</em>	
+	    
+    	        <a target="_blank" seed="global-header-egg" href="http://egg.alipay.com/">提建议</a>
+    <em class="global-separator">|</em>
+
+    <div class="global-dropdown" id="global-header-more">
+        <div class="global-dropdown-hd">
+            <div class="global-dropdown-hd-normal">
+                <a seed="global-more-link" class="global-toplink-more" href="#">更多</a>
+            </div>
+        </div>
+        <div class="global-dropdown-bd global-dropdown-bd-pr sl-alpha fn-hide">
+            <div class="global-dropdown-bd-cnt global-dropdown-more">
+                <ul class="global-list" id="global-list-more">
+                    <!-- CMS:more开始:alipay/nav/more.vm -->      <li><a target="_blank" seed="global-more-wa" title="哇!支付宝" href="http://life.alipay.com">哇!支付宝</a></li>
+      <li><a target="_blank" seed="global-more-mobile" title="手机支付" href="http://mobile.alipay.com/">手机支付</a></li>
+      <li><a target="_blank" seed="global-more-finance" title="理财专区" href="https://financeprod.alipay.com/account/index.htm">理财专区</a></li>
+      <li><a target="_blank" seed="global-more-merchant" title="商家服务" href="https://b.alipay.com/product/package.htm?src=person_alipay_001">商家服务</a></li>
+      <li><a target="_blank" seed="global-more-club" title="论坛" href="http://club.alipay.com/">论坛</a></li>
+      <li><a target="_blank" seed="global-more-home" title="返回支付宝首页" href="https://www.alipay.com">返回支付宝首页</a></li>
+  <!-- CMS:more结束:alipay/nav/more.vm -->                </ul>
+            </div>
+        </div>
+    </div><!-- #global-dropdown-more -->
+
+    <div class="fn-hide" id="global-nav-container">
+        <ul id="global-list-msg-confirm">
+            <li data-id="" class="global-list-comfirm fn-hide" id="global-msg-confirm">
+                <p class="global-list-comfirm-txt">此条消息非常重要，确定标记为已读么？</p>
+                <a class="global-button global-button-sorange" id="global-msg-confirm-ok" href="#">
+                    <span seed="global-msg-ok" class="global-button-text">确 定</span>
+                </a>
+                <a class="global-button global-button-swhite" id="global-msg-confirm-cancel" href="#">
+                    <span seed="global-msg-cancel" class="global-button-text">取 消</span>
+                </a>
+            </li>
+        </ul>
+        <!--[if lt IE 7]>
+        <iframe src="javascript:''" id="global-dropdown-frame" frameborder="0"></iframe>
+        <![endif]-->
+    </div>
+
+</div><!-- .global-toplink -->
+                </div>
+            </div>
+        </div>
+
+
+<div class="header">
+    <div coor="head" class="header-cnt">
+        <h1 class="fn-left"><a target="_self" href="http://virtualprod.p27.alipay.net/lottery/index.htm"><img width="236px" height="46px" src="https://i.alipayobjects.com/e/201202/29lGgg4nLN.png" alt="支付宝彩票缴款通"></a></h1>
+    </div>
+	<nav class="header-nav fn-left">
+				<ul class="header-ul">
+					<li class="header-li  nav-active"><a class="header-li-a" href="https://b.alipay.com/newIndex.htm" seed="headerLi-headerLiA" smartracker="on">首页</a></li>
+					<li class="header-li "> <a class="header-li-a" href="https://b.alipay.com/order/productIndex.htm" seed="headerLi-headerLiAT1" smartracker="on">产品商店</a>
+						<ul class="sub-nav-ul">
+							<li class="sub-nav-li"><a href="https://b.alipay.com/order/productIndex.htm" seed="subNavLi-link" smartracker="on">商店首页</a></li>
+							<li class="sub-nav-li"><a href="https://b.alipay.com/order/productSet.htm" seed="subNavLi-linkT1" smartracker="on">产品大全</a></li>
+						</ul>
+					</li>
+										<li class="header-li no-right-border "><a class="header-li-a " target="_blank" href="https://b.alipay.com/order/serviceIndex.htm" seed="headerLi-headerLiAT2" smartracker="on">我的商家服务</a></li>
+				</ul>
+			</nav>
+</div>
+</div>
+</div>
+</body>
+</html>

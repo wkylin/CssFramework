@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <!--
+    <link type="text/css" media="screen" rel="stylesheet" href="https://a.alipayobjects.com/al/alice.style.account-1.1.css"/>
+    -->
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+        .ui-button {
+            margin: 10px 0 0;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+    <div class="content">
+        <div class="title">
+            ui-button
+        </div>
+
+        <div>
+            <!-- 蓝色小按钮 -->
+            <a href="#" class="ui-button ui-button-sblue"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-sblue"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-sblue"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+            <a href="#" class="ui-button ui-button-sblue ui-button-sblue-disabled"><span
+                    class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-sblue ui-button-sblue-disabled"><button class="ui-button-text">橙色按钮
+            </button></span>
+            <span class="ui-button ui-button-sblue ui-button-sblue-disabled"><input type="button" class="ui-button-text"
+                                                                                    value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 白色小按钮 -->
+            <a href="#" class="ui-button ui-button-swhite"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-swhite"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-swhite"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 橙色小按钮 -->
+            <a href="#" class="ui-button ui-button-sorange"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-sorange"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-sorange"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+
+        <div>
+            <!-- 橙色按钮 -->
+            <a href="#" class="ui-button ui-button-mblue"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-mblue"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-mblue"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+            <a href="#" class="ui-button ui-button-mblue ui-button-mblue-disabled"><span
+                    class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-mblue ui-button-mblue-disabled"><button class="ui-button-text">橙色按钮
+            </button></span>
+            <span class="ui-button ui-button-mblue ui-button-mblue-disabled"><input type="button" class="ui-button-text"
+                                                                                    value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 上一步 -->
+            <a href="#" class="ui-button ui-button-mblue ui-button-mblue-pre"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-mblue ui-button-mblue-pre"><button class="ui-button-text">橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-mblue ui-button-mblue-pre"><input type="button" class="ui-button-text"
+                                                                               value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+
+        </div>
+
+        <div>
+            <!-- 下一步 -->
+            <a href="#" class="ui-button ui-button-mblue ui-button-mblue-next"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-mblue ui-button-mblue-next"><button class="ui-button-text">橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-mblue ui-button-mblue-next"><input type="button" class="ui-button-text"
+                                                                                value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+        <div>
+            <!-- 白色按钮 -->
+            <a href="#" class="ui-button ui-button-mwhite"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-mwhite"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-mwhite"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 上一步 -->
+            <a href="#" class="ui-button ui-button-mwhite ui-button-mwhite-pre"><span class="ui-button-text">橙色按钮</span><span
+                    class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-mwhite ui-button-mwhite-pre"><button class="ui-button-text">橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-mwhite ui-button-mwhite-pre"><input type="button" class="ui-button-text"
+                                                                                 value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+
+        </div>
+
+        <div>
+            <!-- 下一步 -->
+            <a href="#" class="ui-button ui-button-mwhite ui-button-mwhite-next"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-mwhite ui-button-mwhite-next"><button class="ui-button-text">橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-mwhite ui-button-mwhite-next"><input type="button" class="ui-button-text"
+                                                                                  value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+        <div>
+            <!-- 橙色按钮 -->
+            <a href="#" class="ui-button ui-button-morange"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-morange"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-morange"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 上一步  -->
+            <a href="#" class="ui-button ui-button-morange ui-button-morange-pre"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-morange ui-button-morange-pre"><button class="ui-button-text">橙色按钮</button><span
+                    class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-morange ui-button-morange-pre"><input type="button" class="ui-button-text"
+                                                                                   value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+        <div>
+            <!-- 下一步 -->
+            <a href="#" class="ui-button ui-button-morange ui-button-morange-next"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-morange ui-button-morange-next"><button class="ui-button-text">橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-morange ui-button-morange-next"><input type="button" class="ui-button-text"
+                                                                                    value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+        <div>
+            <!-- 上一步 不可点 -->
+            <a href="#" class="ui-button ui-button-morange ui-button-morange-pre-disabled"><span class="ui-button-text">橙色按钮</span><span
+                    class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-morange ui-button-morange-pre-disabled"><button class="ui-button-text">
+                橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-morange ui-button-morange-pre-disabled"><input type="button"
+                                                                                            class="ui-button-text"
+                                                                                            value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+        <div>
+            <!-- 下一步 不可点 -->
+            <a href="#" class="ui-button ui-button-morange ui-button-morange-next-disabled"><span
+                    class="ui-button-text">橙色按钮</span><span class="ui-button-icon"></span></a>
+            <span class="ui-button ui-button-morange ui-button-morange-next-disabled"><button class="ui-button-text">
+                橙色按钮
+            </button><span class="ui-button-icon"></span></span>
+            <span class="ui-button ui-button-morange ui-button-morange-next-disabled"><input type="button"
+                                                                                             class="ui-button-text"
+                                                                                             value="橙色按钮"/><span
+                    class="ui-button-icon"></span></span>
+        </div>
+
+
+        <div>
+            <!-- 蓝色大按钮 -->
+            <a href="#" class="ui-button ui-button-lblue"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-lblue"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-lblue"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 白色大按钮 -->
+            <a href="#" class="ui-button ui-button-lwhite"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-lwhite"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-lwhite"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+        </div>
+
+        <div>
+            <!-- 橙色大按钮 -->
+            <a href="#" class="ui-button ui-button-lorange"><span class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-lorange"><button class="ui-button-text">橙色按钮</button></span>
+            <span class="ui-button ui-button-lorange"><input type="button" class="ui-button-text" value="橙色按钮"/></span>
+            <!-- 橙色大按钮 -->
+            <a href="#" class="ui-button ui-button-lorange ui-button-lorange-disabled"><span
+                    class="ui-button-text">橙色按钮</span></a>
+            <span class="ui-button ui-button-lorange ui-button-lorange-disabled"><button class="ui-button-text">橙色按钮
+            </button></span>
+            <span class="ui-button ui-button-lorange ui-button-lorange-disabled"><input type="button"
+                                                                                        class="ui-button-text"
+                                                                                        value="橙色按钮"/></span>
+        </div>
+
+    </div>
+    <!-- end content -->
+
+
+</div>
+<!-- end layout -->
+<script type="text/javascript" charset="utf-8" src="js/jquery-1.7.1.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var buttons = $(".ui-button");
+        buttons.each(function () {
+            var button = $(this);
+            var buttonClassName = button.attr("class"), buttonType = "";
+            buttonClassName.replace(/ui-button-(\w+)/ig, function (className, type) {
+                buttonType = type;
+            });
+            button.hover(function () {
+                        if (!button.hasClass("ui-button-" + buttonType + "-disabled")) {
+                            button.addClass("ui-button-" + buttonType + "-hover");
+                        }
+                    },
+                    function () {
+                        if (!button.hasClass("ui-button-" + buttonType + "-disabled")) {
+                            button.removeClass("ui-button-" + buttonType + "-hover");
+                        }
+                    })
+            var btnText = button.children(".ui-button-text");
+            btnText.bind("focus", function () {
+                $(this).blur();
+            })
+        });
+    })
+</script>
+
+
+</body>
+</html>

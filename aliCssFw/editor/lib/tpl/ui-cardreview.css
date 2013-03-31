@@ -1,0 +1,32 @@
+/**
+ * @name: ui-cardreview
+ * @author: wkylin(wkylin@sina.cn)
+ * @description: 银行卡号填写放大镜组件
+ * @require: null
+ * @example 
+    <div class="ui-form-item">
+        <label class="ui-label" for="card">银行卡号:</label><input class="ui-input ui-input-banknum" type="text" id="card" />
+    </div>
+
+*/
+.ui-cardreview {
+    border:1px solid #facf66;
+    background-color:#fffdca;
+    z-index:9999;/** xbox 是 10000 */
+    
+}
+.ui-cardreview-cnt {
+    color:#fe4236;
+    font:700 28px "黑体";
+    font-weight:500\0;
+    *font-weight:500;
+    _font-weight:500;
+    padding:8px 13px 8px 9px;
+    letter-spacing:-1px;
+}
+.ui-cardreview-explain {
+    color:#cf9064;
+    font-size:12px;
+    border-top:1px dashed #fdce64;
+    padding:4px 8px 5px 10px;
+}

@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <!--<link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="tpl/ui-dialog.css"/>-->
+
+    <!-- 新导导样式，要使用新导航，直接引入这个样式即可 -->
+    <link type="text/css" media="screen" rel="stylesheet"
+          href="https://a.alipayobjects.com/al/alice.common.v1-1.0.css?t=20111111"/>
+
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+
+<div class="title">ui-tip</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-error">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">请填写你想加载的文件列表</div>
+</div>
+
+<!-- 错误提示 -->
+<div class="ui-tip ui-tip-error">
+    <div class="ui-tip-ctn">请填写你想加载的文件列表</div>
+</div>
+
+<!-- 成功提示 -->
+<div class="ui-tip ui-tip-success">
+    <div class="ui-tip-ctn">加载文件成功</div>
+</div>
+
+<!-- 警告提示 -->
+<div class="ui-tip ui-tip-warn">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">警告, 当前页面还未加载完成...</div>
+</div>
+
+<!-- 警告提示 -->
+<div class="ui-tip ui-tip-warn">
+    <div class="ui-tip-ctn">警告, 当前页面还未加载完成...</div>
+</div>
+
+<!-- 禁止提示 -->
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">禁加跨域加载文件...</div>
+</div>
+
+<!-- 禁止提示 -->
+<div class="ui-tip ui-tip-forbidden">
+    <div class="ui-tip-ctn">禁加跨域加载文件...</div>
+</div>
+
+<!-- 信息提示 -->
+<div class="ui-tip ui-tip-cue">
+    <div class="ui-tip-arrow"></div>
+    <div class="ui-tip-ctn">您的账户余额已用完，请及时充值。您的账户余额已用完，请及时充值。</div>
+</div>
+
+<!-- 信息提示 -->
+<div class="ui-tip ui-tip-cue">
+    <div class="ui-tip-ctn">该中心暂时关闭，无法进行操作。</div>
+</div>
+
+
+<div class="title">ui-message</div>
+
+<div class="fn-mt20">
+    <span class="ui-message ui-message-error fn-ml10">请填写你想要的内容</span>
+    <span class="ui-message ui-message-success fn-ml10">请填写你想要的内容</span>
+    <span class="ui-message ui-message-warn fn-ml10">请填写你想要的内容</span>
+    <span class="ui-message ui-message-forbidden fn-ml10">请填写你想要的内容</span>
+    <span class="ui-message ui-message-cue fn-ml10">请填写你想要的内容</span>
+</div>
+
+<div class="title">ui-notice</div>
+
+<div class="ui-notice ui-notice-wait fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">抱歉，操作失败</h3>
+
+        <p class="ui-notice-explain">错误原因，需技术提供。</p>
+
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+
+<div class="ui-notice ui-notice-error fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">抱歉，操作失败</h3>
+
+        <p class="ui-notice-explain">错误原因，需技术提供。</p>
+
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+
+<div class="ui-notice ui-notice-success fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">成功</h3>
+
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+
+<div class="ui-notice ui-notice-cue fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">您尚未通过实名认证，无法使用彩票缴款通。</h3>
+
+        <p class="ui-notice-explain">
+            现在您可能需要：<a href="#">申请实名认证</a>
+        </p>
+    </div>
+</div>
+
+<div class="ui-notice ui-notice-forbidden fn-mt20">
+    <h3 class="ui-notice-title">文案文案</h3>
+
+    <p class="ui-notice-explain">
+        没有权限访问！
+    </p>
+</div>
+<div class="ui-notice ui-notice-warn fn-mt20">
+    <h3 class="ui-notice-title">文案文案</h3>
+
+    <p class="ui-notice-explain-other">
+        没有查询到可显示的信息
+    </p>
+</div>
+
+
+<div class="ui-notice ui-notice-forbidden fn-mt20">
+    <h3 class="ui-notice-title">文案文案</h3>
+
+    <p class="ui-notice-explain">
+        没有权限访问！
+    </p>
+</div>
+<div class="ui-notice ui-notice-warn fn-mt20">
+    <h3 class="ui-notice-title">文案文案</h3>
+
+    <div class="ui-notice-explain">
+        <div class="ui-tip ui-tip-error">
+            <div class="ui-tip-ctn">
+                <p>提示啊提示啊，嵌套的啊嵌套的啊。</p>
+                <ul class="ui-list fn-mt10">
+                    <li class="ui-list-item">
+                        <a href="#">签约后如何改造网站的演示</a>
+                    </li>
+                    <li class="ui-list-item">
+                        <a href="#">帮助文档下载</a>
+                    </li>
+                    <li class="ui-list-item">
+                        <a href="#">签约后如何改造网站的演示</a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+        <ul class="ui-list fn-mt10">
+            <li class="ui-list-item">
+                <a href="#">签约后如何改造网站的演示</a>
+            </li>
+            <li class="ui-list-item">
+                <a href="#">帮助文档下载</a>
+            </li>
+            <li class="ui-list-item">
+                <a href="#">签约后如何改造网站的演示</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<div class="title">
+    ui-list
+</div>
+<ul class="ui-list ui-list-normal">
+    <li class="ui-list-item">
+        已发货， 发货时间：2012年01月04日21时。物流公司：<a href="#">圆通速递</a> [571000300501738]
+        <a href="#">申请退款</a>
+    </li>
+    <li class="ui-list-item">
+        若您未在<span>5天11小时13分53秒</span>内确认收获，交易将自动结束，交易金额付款至对方账户。
+    </li>
+</ul>
+<ul class="ui-list ui-list-bluelink fn-mt20">
+    <li class="ui-list-item">
+        <a href="#">签约后如何改造网站的演示</a>
+    </li>
+    <li class="ui-list-item">
+        <a href="#">帮助文档下载</a>
+    </li>
+    <li class="ui-list-item">
+        <a href="#">签约后如何改造网站的演示</a>
+    </li>
+</ul>
+
+<ul class="ui-list ui-list-graylink fn-mt20">
+    <li class="ui-list-item">
+        <a href="#">签约后如何改造网站的演示</a>
+    </li>
+    <li class="ui-list-item">
+        <a href="#">帮助文档下载</a>
+    </li>
+    <li class="ui-list-item">
+        <a href="#">签约后如何改造网站的演示</a>
+    </li>
+</ul>
+<div class="title">
+    ui-form
+</div>
+
+<form class="ui-form fn-mt10" method="post" name="myform" id="#" enctype="multipart/form-data">
+    <fieldset id="">
+        <legend>ui-form</legend>
+        <div class="ui-form-item">
+            <label class="ui-label">彩票中心：</label>
+            <select class="">
+                <option value="">江西体彩</option>
+                <option value="">江西体彩</option>
+                <option value="">江西体彩</option>
+                <option value="">江西体彩</option>
+            </select>
+
+            <div class="ui-form-explain">
+                请填写网点编号，网点编号为5位数字。
+            </div>
+            <span class="ui-message ui-message-error">请填写你想要的内容</span>
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">彩票中心：</label>
+
+            <div class="ui-form-text">江西体彩</div>
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">批量交款文件：</label>
+            <span class="required">*</span>
+            <span class="sl-file">
+                  <span class=" ui-button ui-button-normal"><input type="button" value="+选择文件"/></span>
+                  <input type="file" class="sl-file-input"/>
+            </span>
+            <span class="ui-form-other"><a href="#">点此下载批量缴款模板</a></span>
+
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">缴款方式：</label>
+            <span class="required">*</span>
+            <div class="ui-form-text">
+                <input class="ui-radio" type="radio" name="xx" id="jk-1"/><label for="jk-1">单笔缴款</label>
+                <input class="ui-radio" type="radio" name="xx" id="jk-2"/><label for="jk-2">批量缴款</label>
+            </div>
+
+            <div class="ui-form-explain"></div>
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">业主姓名：</label><span class="required">*</span><input class="ui-input" type="text" name="xx"/>
+
+            <div class="ui-form-explain fn-hide">业主姓名长度必须在2到32个之间。</div>
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">身份证号码：</label><input class="ui-input" type="text" name="xx"/>
+
+            <div class="ui-form-explain">请填写真实的身份证号码，身份证号长度是15位或18位数字。</div>
+        </div>
+
+        <div class="ui-form-item">
+            <label class="ui-label">支付宝支付密码：</label><input class="ui-input" type="password" name="xx"/>
+            <span class="ui-form-link"><a href="#">忘记密码？</a></span>
+
+            <div class="ui-form-explain"></div>
+        </div>
+        <div class="ui-form-item">
+            <label class="ui-label">缴款备注：</label>
+            <textarea name="XX" class="ui-textarea" id="" data-explain=""></textarea>
+
+            <div class="ui-form-explain">最多200个字。</div>
+        </div>
+        <div class="ui-form-item">
+            <span class="ui-button ui-button-mblue">
+                <input class="ui-button-text" type="submit" value="下一步"/>
+            </span>
+        </div>
+    </fieldset>
+</form>
+
+<div class="title">
+    ui-button
+</div>
+
+<div>
+    <!-- 蓝色小按钮 -->
+    <a href="#" class="ui-button ui-button-sblue"><span class="ui-button-text">白色小按钮</span></a>
+    <span class="ui-button ui-button-sblue"><button class="ui-button-text">蓝色小按钮</button></span>
+    <span class="ui-button ui-button-sblue"><input type="button" class="ui-button-text" value="蓝色小按钮" /></span>
+</div>
+
+<div>
+    <!-- 白色小按钮 -->
+    <a href="#" class="ui-button ui-button-swhite"><span class="ui-button-text">白色小按钮</span></a>
+    <span class="ui-button ui-button-swhite"><button class="ui-button-text">白色小按钮</button></span>
+    <span class="ui-button ui-button-swhite"><input type="button" class="ui-button-text" value="白色小按钮" /></span>
+</div>
+
+<div>
+    <!-- 橙色小按钮 -->
+    <a href="#" class="ui-button ui-button-sorange"><span class="ui-button-text">橙色小按钮</span></a>
+    <span class="ui-button ui-button-sorange"><button class="ui-button-text">橙色小按钮</button></span>
+    <span class="ui-button ui-button-sorange"><input type="button" class="ui-button-text" value="橙色小按钮" /></span>
+</div>
+
+
+<div>
+    <!-- 蓝色按钮 -->
+    <a href="#" class="ui-button ui-button-mblue"><span class="ui-button-text">蓝色按钮</span></a>
+    <span class="ui-button ui-button-mblue"><button class="ui-button-text">蓝色按钮</button></span>
+    <span class="ui-button ui-button-mblue"><input type="button" class="ui-button-text" value="蓝色按钮" /></span>
+</div>
+
+<div>
+    <!-- 白色按钮 -->
+    <a href="#" class="ui-button ui-button-mwhite"><span class="ui-button-text">橙色按钮</span></a>
+    <span class="ui-button ui-button-mwhite"><button class="ui-button-text">白色按钮</button></span>
+    <span class="ui-button ui-button-mwhite"><input type="button" class="ui-button-text" value="白色按钮" /></span>
+</div>
+
+<div>
+    <!-- 橙色按钮 -->
+    <a href="#" class="ui-button ui-button-morange"><span class="ui-button-text">橙色按钮</span></a>
+    <span class="ui-button ui-button-morange"><button class="ui-button-text">橙色按钮</button></span>
+    <span class="ui-button ui-button-morange"><input type="button" class="ui-button-text" value="橙色按钮" /></span>
+</div>
+
+
+<div>
+    <!-- 蓝色大按钮 -->
+    <a href="#" class="ui-button ui-button-lblue"><span class="ui-button-text">蓝色大按钮</span></a>
+    <span class="ui-button ui-button-lblue"><button class="ui-button-text">蓝色大按钮</button></span>
+    <span class="ui-button ui-button-lblue"><input type="button" class="ui-button-text" value="蓝色大按钮" /></span>
+</div>
+
+<div>
+    <!-- 白色大按钮 -->
+    <a href="#" class="ui-button ui-button-lwhite"><span class="ui-button-text">白色大按钮</span></a>
+    <span class="ui-button ui-button-lwhite"><button class="ui-button-text">白色大按钮</button></span>
+    <span class="ui-button ui-button-lwhite"><input type="button" class="ui-button-text" value="白色大按钮" /></span>
+</div>
+
+<div>
+    <!-- 橙色大按钮 -->
+    <a href="#" class="ui-button ui-button-lorange"><span class="ui-button-text">橙色大按钮</span></a>
+    <span class="ui-button ui-button-lorange"><button class="ui-button-text">橙色大按钮</button></span>
+    <span class="ui-button ui-button-lorange"><input type="button" class="ui-button-text" value="橙色大按钮" /></span>
+</div>
+
+
+<div class="title">
+    ui-tab
+</div>
+
+<div class="ui-tab">
+    <div class="ui-tab-trigger fn-clear">
+        <ul>
+
+            <li class="ui-tab-trigger-item ui-tab-trigger-first">
+                <span>缴款明细</span>
+            </li>
+            <li class="ui-tab-trigger-item">
+                <a href="#"><b>缴款明细</b></a>
+            </li>
+            <li class="ui-tab-trigger-item ui-tab-trigger-item-current">
+                <a href="#"><b>批量缴款记录</b></a>
+            </li>
+            <li class="ui-tab-trigger-item ui-tab-trigger-last-item ">
+                <a href="#"><b>批量缴款记录</b></a>
+            </li>
+        </ul>
+    </div>
+    <!--<div class="ui-tab-cnt">-->
+    <!--<div class="ui-tab-cnt-item">-->
+    <!--基础 ui-tab1-->
+    <!--</div>-->
+    <!--<div class="ui-tab-cnt-item ui-tab-cnt-item-current">-->
+    <!--基础 ui-tab2-->
+    <!--</div>-->
+    <!--</div>-->
+</div>
+
+
+<div class="title">
+    ui-page
+</div>
+<div class="ui-page fn-clear fn-mt20">
+    <span class="ui-page-item ui-page-info">查询结果每页显示：
+        <select name="perPageNumber">
+            <option value="20">20</option>
+            <option selected="selected" value="40">40</option>
+        </select>
+    </span>
+    <a class="ui-page-item ui-page-first" href="#">首页</a>
+    <span class="ui-page-item ui-page-first" href="#">首页</span>
+    <a class="ui-page-item  ui-page-prev" href="#">上一页</a>
+    <span class="ui-page-item  ui-page-info"><span class="ui-page-bold">5/7</span>页</span>
+    <span class="ui-page-item ui-page-info"><span class="ui-page-bold">21</span>-<span class="ui-page-bold">40</span>条，共<span
+            class="ui-page-bold">60</span>条</span>
+    <a class="ui-page-item ui-page-next" href="#">下一页</a>
+    <a class="ui-page-item ui-page-last" href="#">尾页</a>
+    <span class="ui-page-item ui-page-last" href="#">尾页</span>
+    <span class="ui-page-item ui-page-info ui-page-which"><input type="text" value="6" name="some_name"></span>
+    <a href="#" class="ui-page-item ui-page-info ui-page-goto"><span>跳转</span></a>
+</div>
+<div class="title">
+    searchForm
+</div>
+
+<div class="ui-box search-form" id="J_searchForm">
+    <div class="ui-box-container">
+        <form action="#" method="post" class="ui-form ui-form-horizontal">
+            <fieldset id="">
+                <legend>searchform</legend>
+                <div class="ui-form-item">
+                    <label class="ui-label">网点编号：</label>
+                    <input type="text" class="ui-input"/>
+
+                    <div class="ui-form-explain">
+                    </div>
+                </div>
+                <div class="ui-form-item">
+                    <label class="ui-label">批次号：</label>
+                    <input type="text" class="ui-input"/>
+
+                    <div class="ui-form-explain">
+                    </div>
+                </div>
+                <div class="ui-form-item ui-form-item-time">
+                    <label class="ui-label">创建时间：</label>
+                    <input type="text" class="ui-input"/>
+                    <span class="fn-mlr5">-</span>
+                    <input type="text" class="ui-input"/>
+
+                    <div class="ui-form-explain">
+                    </div>
+                </div>
+                <div class="ui-form-item">
+                    <label class="ui-label">所属中心：</label>
+                    <select id="">
+                        <option value="" selected="selected">所有</option>
+                        <option value="">900</option>
+                        <option value="">800</option>
+                    </select>
+
+                    <div class="ui-form-explain">
+                    </div>
+                </div>
+                <div class="ui-form-item ui-form-item-last">
+                        <span class="ui-button ui-button-sblue">
+                            <input class="ui-button-text" type="submit" value="下一步"/>
+                        </span>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div class="title">
+    ui-column
+</div>
+<div class="ui-column">
+    <div class="ui-column-item">
+        <div class="ui-column-left">
+            支付宝交易号：
+        </div>
+        <div class="ui-column-right">
+            2012012916334772
+        </div>
+    </div>
+    <div class="ui-column-item">
+        <div class="ui-column-left">
+            网点编号：
+        </div>
+        <div class="ui-column-right">
+            90000
+        </div>
+    </div>
+    <div class="ui-column-item">
+        <div class="ui-column-left">
+            所属中心：
+        </div>
+        <div class="ui-column-right">
+            江西体彩
+        </div>
+    </div>
+    <div class="ui-column-item">
+        <div class="ui-column-left">
+            缴款金额：
+        </div>
+        <div class="ui-column-right">
+            200,000.00 元
+        </div>
+    </div>
+    <div class="ui-column-item">
+        <div class="ui-column-left">
+            &nbsp;
+        </div>
+        <div class="ui-column-right">
+            <a class="ui-button ui-button-ok">
+                <span>关闭</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="title">
+    ui-button
+</div>
+
+<a class="ui-button ui-button-sblue">
+    <span class="ui-button-text">余额生成</span>
+</a>
+<a class="ui-button ui-button-mblue ui-button-disabled">
+    <span class="ui-button-text">余额生成</span>
+</a>
+<a class="ui-button ui-button-sblue">
+    <span class="ui-button-text">余额生成</span>
+</a>
+
+
+<span class="ui-button ui-button-sorange">
+    <input class="ui-button-text" type="button" value="余额生成"/>
+</span>
+
+<span class="ui-button ui-button-sorange ui-button-sorange-disabled">
+    <input class="ui-button-text" type="button" value="余额生成"/>
+</span>
+
+<span class="ui-button ui-button-sblue">
+    <input class="ui-button-text" type="button" value="余额生成" />
+</span>
+
+<a class="ui-icon-shield" href="#">
+    <span>独立担保交易</span>
+</a>
+
+<div class="title">
+    ui-list-icons
+</div>
+<ul class="ui-list-icons fn-clear">
+    <li class="ui-list-icon-item">
+        <a class="icon-box" href="#">
+            <span class="icon" title="江西体彩">江西体彩</span>
+        </a>
+    </li>
+    <li class="ui-list-icon-item">
+        <a class="icon-box" href="#">
+            <span class="icon" title="江西体彩">江西体彩</span>
+        </a>
+    </li>
+</ul>
+<div class="title">
+    ui-step
+</div>
+
+<dl class="ui-step ui-step-horizontal fn-clear">
+    <dt class="ui-step-item ui-step-title">如何缴款：</dt>
+    <dd class="ui-step-item">缴款信息录入</dd>
+    <dd class="ui-step-item ui-step-next"> ></dd>
+    <dd class="ui-step-item">缴款确认</dd>
+    <dd class="ui-step-item ui-step-next"> ></dd>
+    <dd class="ui-step-item">缴款成功</dd>
+    <dd class="ui-step-item ui-step-other">
+        <a href="#">详情</a>
+    </dd>
+</dl>
+
+<div class="title">
+    ui-box
+</div>
+<div class="ui-box fn-clear ui-box-nocontainer">
+    <div class="ui-box-title fn-clear">
+        <div class="ui-box-title-border sl-linear ">
+            <h3>标题</h3>
+            <a href="#" class="ui-box-title-more">更多</a>
+        </div>
+    </div>
+    <div class="ui-box-container">
+        <div class="ui-box-content">
+            ui-box-content
+        </div>
+    </div>
+</div>
+
+<div class="title">
+    ui-slider-digit
+</div>
+<div class="ui-slider-digit" id="J_sliderDiv">
+    <ul class="ui-slider-view" id="J_viewUl">
+        <li class="current">
+            <a seed="" title="" target="_blank" href="http://fun.alipay.com/tprs/index.htm?src=20120109licaishouye">
+                <img height="190" width="790" alt="" src="https://i.alipayobjects.com/e/201201/1srCrc7CXZ.jpg">
+            </a>
+        </li>
+        <li>
+            <a seed="" title="" target="_blank"
+               href="https://insuranceprod.alipay.com/insurance/productDetail.htm?productCode=200001">
+                <img height="190" width="790" alt=""
+                     src="https://img.alipay.com/images/ecmng/upload/image/201111/1Tp9jWjHgX.jpg">
+            </a>
+        </li>
+        <li>
+            <a seed="" title="" target="_blank"
+               href="https://insuranceprod.alipay.com/insurance/productDetail.htm?productCode=400001">
+                <img height="190" width="790" alt=""
+                     src="https://img.alipay.com/images/ecmng/upload/image/201111/1Tp9eEBe9R.jpg">
+            </a>
+        </li>
+    </ul>
+    <span class="ui-slider-trigger" id="J_triggerSpan">
+            <a class="current" href="javascript:void(0)">1</a>
+            <a class="" href="javascript:void(0)">2</a>
+            <a class="" href="javascript:void(0)">3</a>
+    </span>
+</div>
+<div class="title">
+    ui-repeater
+</div>
+
+<div class="title">
+    ui-table
+</div>
+<div class="ui-table ui-record-list fn-mt20">
+    <table>
+        <colgroup>
+            <col width="80"/>
+            <col width="80"/>
+            <col width="80"/>
+            <col width="80"/>
+            <col width="80"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <th>网点编号</th>
+            <th>业主姓名</th>
+            <th>身份证号码</th>
+            <th>所属中心</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>90000</td>
+            <td>兰坤</td>
+            <td>111111111111111111</td>
+            <td>江西体彩</td>
+            <td><a href="#">删除</a></td>
+        </tr>
+        <tr>
+            <td>90000</td>
+            <td>兰坤</td>
+            <td>111111111111111111</td>
+            <td>江西体彩</td>
+            <td><a href="#">删除</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="ui-table ui-trade-list fn-mt20">
+    <table>
+        <colgroup>
+            <col width="80"/>
+            <col/>
+            <col width="80"/>
+            <col width="80"/>
+            <col width="80"/>
+            <col width="80"/>
+        </colgroup>
+        <thead>
+        <tr>
+            <th>类型</th>
+            <th>消费名称</th>
+            <th>单价</th>
+            <th>x数量</th>
+            <th>+邮费</th>
+            <th>=应付金额</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a class="ui-icon-shield"><span>支付宝担保交易</span></a>担保交易</td>
+            <td>
+                <ul class="ui-list ui-list-normal">
+                    <li>12.30喜士多</li>
+                    <li class="ui-list-explain">交易号 2011123053078546</li>
+                </ul>
+            </td>
+            <td class="ft-14">8.00</td>
+            <td class="ft-14">x1</td>
+            <td class="ft-14">+5.00</td>
+            <td class="ft-orange ft-14">13.00</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td> 分类：收款<a class="ui-icon-flag-off" href="#" hidefocus="true" title="点击编辑备注"></a></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td class="ui-table-explain ft-right" colspan="6">单位（元）</td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+<!-- end ui-table -->
+<div class="ft-center fn-mt20">
+            <span class="ui-button ui-button-normal">
+                <input type="button" value="打印"/>
+            </span>
+</div>
+</div>
+<!-- end content -->
+
+<!-- /public/component/footCommon.vm -->
+
+<div class="ui-footer fn-clear" coor="footer">
+    <div class="ui-footer-ctn">
+        <div class="ui-footer-link">
+            <a seed="foot-1" href="http://ab.alipay.com/index.htm?Nummain=13" title="关于支付宝" target="_blank">关于支付宝</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-1" href="http://qudao.alipay.com/" title="经销商体系" target="_blank">经销商体系</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-2" href="http://ue.alipay.com/" title="体验计划" target="_blank">体验计划</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-3" href="http://blog.alipay.com/" title="官方博客" target="_blank">官方博客</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-4" href="http://job.alipay.com/index.php" title="诚征英才" target="_blank">诚征英才</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-5" href="http://ab.alipay.com/index.htm?Nummain=31" title="联系我们" target="_blank">联系我们</a>
+            <em class="ui-separator">|</em>
+            <a seed="foot-6" href="http://global.alipay.com/" title="International Business" target="_blank">International
+                Business</a>
+
+            <em class="ui-separator">|</em>
+            <a seed="foot-7" href="http://ab.alipay.com/index.htm?Nummain=34" title="About Alipay" target="_blank">About
+                Alipay</a>
+        </div>
+        <div class="ui-footer-copyright">
+            <!-- CMS:开始:alipay/foot/copyright.vm -->
+            <div class="copyright">支付宝版权所有 2004-2011 ICP证：浙B2-20050209</div>
+            <div class="server" id="ServerNum">personal-30-22</div>
+            <!-- CMS:结束:alipay/foot/copyright.vm -->
+        </div>
+    </div>
+</div>
+<!-- /public/component/footCommon.vm -->
+<!-- end footer -->
+</div>
+<!-- end layout -->
+</body>
+</html>

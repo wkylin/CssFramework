@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="no-js ie6" lang="en-US">
+<![endif]-->
+<!--[if IE 7 ]>
+<html class="no-js ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie8 " lang="en-US">
+<![endif]-->
+<!--[if IE 9 ]>
+<html class="no-js ie9>" lang="en-US">
+<![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <title>HTMLTEMPLATE</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Easy HTML5 Template">
+    <meta name="author" content="wkylin">
+    <link rel="icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="http://wkylin.github.com/assets/ico/favicon.ico" type="image/x-icon"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="base.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="font.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="function.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-table.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-title.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-button.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-form.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tip.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-tab.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-xbox.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-box.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-message.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-icon.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-line.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-footer.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-notice.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-step.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-column.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-repeater.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-page.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-list-icons.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-slider-digit.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="default.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="solutions/sl-input-file.css"/>
+    <link type="text/css" media="screen" charset="utf-8" rel="stylesheet" href="editor/lib/tpl/ui-dialog.css" />
+    <style type="text/css">
+        .title {
+            font-weight: bold;
+            font-size: 12px;
+            padding: 5px 10px 5px;
+            margin: 30px 0 5px;
+            background-color: #858575;
+            color: #ffffff;
+        }
+
+    </style>
+</head>
+
+<body>
+<div class="layout">
+
+<div class="content">
+
+
+<div class="title">ui-notice</div>
+
+<div class="ui-notice ui-notice-success fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">成功</h3>
+        <p class="ui-notice-explain">
+            缴款成功成功！
+        </p>
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM0">成功提示</button>
+</span>
+
+<div class="ui-notice ui-notice-forbidden fn-mt20">
+    <h3 class="ui-notice-title">文案文案</h3>
+    <p class="ui-notice-explain">
+        没有权限访问！
+    </p>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM1">禁止提示</button>
+</span>
+
+
+<div class="ui-notice ui-notice-cue fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">您尚未通过实名认证，无法使用彩票缴款通。</h3>
+        <p class="ui-notice-explain">
+            现在您可能需要：<a href="#">申请实名认证</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM2">信息提示</button>
+</span>
+
+
+<div class="ui-notice ui-notice-warn fn-mt20">
+    <h3 class="ui-notice-title">警告</h3>
+    <div class="ui-notice-explain">
+        <p class="ui-notice-explain">
+            当前账户未进行实名证证!~
+        </p>
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">申请实名认证</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM3">禁告提示</button>
+</span>
+
+
+<div class="ui-notice ui-notice-error fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">抱歉，操作失败</h3>
+        <p class="ui-notice-explain">错误原因，需技术提供。</p>
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM4">错误提示</button>
+</span>
+
+
+<div class="ui-notice ui-notice-doubt fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">抱歉，操作失败</h3>
+        <p class="ui-notice-explain">错误原因，需技术提供。</p>
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM5">疑问提示</button>
+</span>
+
+
+<div class="ui-notice ui-notice-wait fn-mt20">
+    <div class="ui-notice-cnt">
+        <h3 class="ui-notice-title">抱歉，操作失败，请稍候再试。。。</h3>
+        <p class="ui-notice-explain">错误原因，需技术提供。</p>
+        <p class="ui-notice-explain-other">
+            现在您可能需要：<a href="#">返回首页</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回账单查询</a>
+            <span class="fn-bar">|</span>
+            <a href="#">返回合同查询</a>
+        </p>
+    </div>
+</div>
+<span class="ui-button ui-button-mwhite fn-mt10">
+    <button class="ui-button-text" id="fireDOM6">等待提示</button>
+</span>
+
+
+<div class="fn-hide">
+    <div id="J_success" class="ui-notice ui-notice-success">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">缴款已完成！</h3>
+            <p class="ui-notice-explain-other">
+                完成的说明完成的说明完成的说明，完成的说明!
+            </p>
+            <p class="ui-notice-explain-other">
+                现在你可以：<a href="#">查询缴费记录</a>，或者返回 <a href="#">我的支付宝</a>
+            </p>
+            <p class="ui-notice-explain-other">
+                <span id="J_confirmBtn" class="ui-button ui-button-morange fn-mt10 fn-mr10">
+                    <button class="ui-button-text">确认关闭</button>
+                </span><span id="J_cancelBtn" class="ui-button ui-button-mwhite fn-mt10">
+                    <button class="ui-button-text">好的，知道了</button>
+                </span>
+            </p>
+        </div>
+    </div>
+
+    <div id="J_forbidden" class="ui-notice ui-notice-forbidden">
+        <h3 class="ui-notice-title">文案文案</h3>
+        <p class="ui-notice-explain">
+            没有权限访问！
+        </p>
+    </div>
+
+    <div id="J_cue" class="ui-notice ui-notice-cue">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">您尚未通过实名认证，无法使用彩票缴款通。</h3>
+            <p class="ui-notice-explain">
+                现在您可能需要：<a href="#">申请实名认证</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="J_warn" class="ui-notice ui-notice-warn">
+        <h3 class="ui-notice-title">警告</h3>
+        <div class="ui-notice-explain">
+            <p class="ui-notice-explain">
+                当前账户未进行实名证证!~
+            </p>
+            <p class="ui-notice-explain-other">
+                现在您可能需要：<a href="#">申请实名认证</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="J_error" class="ui-notice ui-notice-error">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">抱歉，操作失败</h3>
+            <p class="ui-notice-explain">错误原因，需技术提供。</p>
+            <p class="ui-notice-explain-other">
+                现在您可能需要：<a href="#">返回首页</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回账单查询</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回合同查询</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="J_doubt" class="ui-notice ui-notice-doubt">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">抱歉，操作失败</h3>
+            <p class="ui-notice-explain">错误原因，需技术提供。</p>
+            <p class="ui-notice-explain-other">
+                现在您可能需要：<a href="#">返回首页</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回账单查询</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回合同查询</a>
+            </p>
+        </div>
+    </div>
+
+    <div id="J_wait" class="ui-notice ui-notice-wait">
+        <div class="ui-notice-cnt">
+            <h3 class="ui-notice-title">抱歉，操作失败，请稍候再试。。。</h3>
+            <p class="ui-notice-explain">错误原因，需技术提供。</p>
+            <p class="ui-notice-explain-other">
+                现在您可能需要：<a href="#">返回首页</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回账单查询</a>
+                <span class="fn-bar">|</span>
+                <a href="#">返回合同查询</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- end content -->
+
+
+</div>
+<!-- end layout -->
+
+</body>
+</html>
