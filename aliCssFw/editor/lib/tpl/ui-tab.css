@@ -45,7 +45,7 @@
 .ui-tab-trigger-item, .ui-tab-trigger-item a, .ui-tab-trigger-item a:visited, .ui-tab-trigger-item span, /** 默认样式 */
 .ui-tab-trigger-item-current, .ui-tab-trigger-item-current a, .ui-tab-trigger-item-current a:visited, .ui-tab-trigger-item-current span, /** 选中样式 */
 .ui-tab-trigger-item-hover, .ui-tab-trigger-item-hover a, .ui-tab-trigger-item-hover a:visited, .ui-tab-trigger-item-hover span {
-    background: url("../images/ui-tab.png") no-repeat 0 0;
+    background: url("../../../images/ui-tab.png") no-repeat 0 0;
 }
 
 /** 默认样式 */

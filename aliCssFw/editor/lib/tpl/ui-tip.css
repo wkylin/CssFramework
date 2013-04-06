@@ -58,7 +58,7 @@
     width: 13px;
     height: 9px;
     overflow: hidden;
-    background: url("../images/icons.png") no-repeat 0 0
+    background: url("../../../images/icons.png") no-repeat 0 0
 }
 
 .ui-tip-explain {
@@ -74,7 +74,7 @@
 }
 
 .ui-tip-success .ui-tip-ctn, .ui-tip-forbidden .ui-tip-ctn, .ui-tip-cue .ui-tip-ctn, .ui-tip-warn .ui-tip-ctn, .ui-tip-error .ui-tip-ctn, .ui-tip-doubt .ui-tip-ctn, .ui-tip-wait .ui-tip-ctn {
-    background: url("../images/icons.png") no-repeat 0 0;
+    background: url("../../../images/icons.png") no-repeat 0 0;
 }
 
 /** 成功提示 */

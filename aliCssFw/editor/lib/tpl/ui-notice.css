@@ -28,7 +28,7 @@
 }
 
 .ui-notice-success,  .ui-notice-forbidden, .ui-notice-cue, .ui-notice-warn,  .ui-notice-error, .ui-notice-doubt, .ui-notice-wait {
-    background: url("../images/icons.png") no-repeat 0 0;
+    background: url("../../../images/icons.png") no-repeat 0 0;
     border:1px solid #E5E5CD;
 }
 

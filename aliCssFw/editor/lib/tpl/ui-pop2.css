@@ -29,7 +29,7 @@
     width: 12px;
     height: 14px;
     line-height: 14px;
-    background: url(../images/ico-pa.png) -40px -100px no-repeat;
+    background: url(../../../images/ico-pa.png) -40px -100px no-repeat;
     margin: -2px 0 0 20px;
 }
 
@@ -70,7 +70,7 @@
     overflow: hidden;
     text-indent: -10em;
     font: 500 12px/19px Arial;
-    background: url(../images/ico-pa.png) 3px -155px no-repeat;
+    background: url(../../../images/ico-pa.png) 3px -155px no-repeat;
 }
 
 .pop-close-link span {
@@ -111,7 +111,7 @@
     width: 10px;
     height: 11px;
     line-height: 11px;
-    background: url(../images/ico-pa.png) -40px -128px no-repeat;
+    background: url(../../../images/ico-pa.png) -40px -128px no-repeat;
     top: 100%;
     margin-top: -3px;
     display: block;
@@ -121,7 +121,7 @@
 }
 
 .pop-info .angle-top {
-    background: url(../images/ico-pa.png) -40px -140px no-repeat;
+    background: url(../../../images/ico-pa.png) -40px -140px no-repeat;
     top: -9px;
 }
 
@@ -280,7 +280,7 @@
 .pop-select .selected,
 .pop-select .selected:hover {
     padding-left: 14px;
-    background-image: url(../images/ico-text.png);
+    background-image: url(../../../images/ico-text.png);
     background-repeat: no-repeat;
 }
 

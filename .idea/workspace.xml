@@ -2,337 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CssFramework.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jQuery.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-accordion.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-box.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-button.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-button_bak.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-cardreview.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-column.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-footer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-form.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-grid-25.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-input.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-line.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-list-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-list.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-message.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-notice.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-paging.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop2.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-repeater.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-slider-digit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-step.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tab.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-table.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-title.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-xbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="D:\github\CssFramework\aliCssFw\editor\lib\tpl\ui-button_bak.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/header.css" afterPath="$PROJECT_DIR$/aliCssFw/header.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/index.htm" afterPath="$PROJECT_DIR$/aliCssFw/index.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-accordion.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-accordion.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-box.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-box.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-button.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-button.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-dialog.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-dialog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-form.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-form.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-icon.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-icon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-list.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-list.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-message.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-message.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-notice.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-notice.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-paging.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-paging.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop2.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-step.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-step.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tab.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tab.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/ui-tip-component.htm" afterPath="$PROJECT_DIR$/aliCssFw/ui-tip-component.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tip.css" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tip.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aliCssFw/ui-tip.htm" afterPath="$PROJECT_DIR$/aliCssFw/ui-tip.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="6ddfe449-f01a-4e24-8e6d-d732baf4a427" name="Rejected commit: Default" comment="ali css framework">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2ChXw5HCwT.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2FMTnX0fjV.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2I0glBzU3X.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2I0hsEOxNb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2I0huzlTCd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2I0j62zZMJ.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2XSZoo2M8p.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2bW1qj1jon.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/2p2RwlKzqb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/33W2Wwx0u3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/bg-step.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons-icon.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons/buttons-png.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/buttons/buttons_old.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/checkbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/doubt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/doubt.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/feedback.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/forbidden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/forbidden.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/global-button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ico-loading-text.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ico-pa.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ico-text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ico-trade-note.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/icons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/icons.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/m2_btns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/m2_ico2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-cue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-cue.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-doubt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-doubt.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-error.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-forbidden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-forbidden.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-success.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-wait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-wait.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-warn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/notice-warn.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/radio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/select_box_off.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/select_box_on.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tab.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-cue-arrow.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-cue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-cue.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-doubt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-doubt.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-error.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-error.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-forbidden.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-forbidden.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-success.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-success.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-wait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-wait.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-warn-arrow.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-warn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/tip-warn.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-components.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-input-add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-input-add.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-input-del.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-input-del.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-page.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-paging.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-paging.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-tab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-tab.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-table-header.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-table-header.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-table-sort.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-table-sort.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-table-sort.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/ui-tip-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/user-img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/wait.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/wait.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/warn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/images/warn.psd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/python/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/coffeescript/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/pascal/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/perl/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/r/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ruby/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rpm/changes/changes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/clike/clike.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/clojure/clojure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/closetag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/cobalt.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/codemirror.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/codemirror.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/coffeescript/coffeescript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/contact.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/css/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/cssLab.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/diff/diff.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/diff/diff.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ecl/ecl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/eclipse.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/elegant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/keymap/emacs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/fileupload.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/foldcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/formatting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/function.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/gfm/gfm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/go/go.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/groovy/groovy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/haskell/haskell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/header.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/htmlembedded/htmlembedded.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/htmlmixed/htmlmixed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/index.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/clike/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/clojure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/coffeescript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/css/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/diff/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ecl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/gfm/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/go/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/groovy/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/haskell/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/htmlembedded/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/htmlmixed/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/jinja2/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/less/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/lua/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/markdown/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/mysql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ntriples/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/pascal/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/perl/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/php/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/plsql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/properties/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/python/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/r/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rpm/changes/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rpm/spec/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rst/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ruby/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rust/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/scheme/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/smalltalk/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/smarty/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/sparql/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/stex/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/tiddlywiki/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/vbscript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/velocity/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/verilog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xmlpure/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/yaml/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/javascript-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/javascript/javascript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/jinja2/jinja2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/js/jquery-1.7.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/js/jquery-ui-form.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/js/jquery-ui-tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/less/less.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/lesser-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/lua/lua.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/markdown/markdown.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/match-highlighter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/mysql/mysql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/neat.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ntriples/ntriples.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/overlay.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/pascal/pascal.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/perl/perl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/php/php.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/plsql/plsql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/properties/properties.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/python/python.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/r/r.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rst/rst.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/ruby/ruby.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/rubyblue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/runmode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rust/rust.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/scheme/scheme.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/searchcursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/simple-hint.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/lib/util/simple-hint.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/solutions/sl-input-file.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/solutions/sl-linear.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/smalltalk/smalltalk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/smarty/smarty.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/sparql/sparql.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rpm/spec/spec.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/rpm/spec/spec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/stex/stex.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/js/tab.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/test.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/stex/test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testBase.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testEmptySequenceKeyword.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testMultiAttr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testNamespaces.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testProcessingInstructions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/test/testQuotes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/tiddlywiki/tiddlywiki.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/tiddlywiki/tiddlywiki.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-box.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-button-jquery.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-dialog.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-footer.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-form.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-grid-25.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-grid.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-header.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-list.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-message.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-nav.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-notice.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-paging.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-pop.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-step.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-tab-jquery.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-tab.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-table.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-tip-component.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-tip.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-title.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/ui-xbox.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/vbscript/vbscript.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/velocity/velocity.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/verilog/verilog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/keymap/vim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xml/xml.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xmlpure/xmlpure.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/theme/xq-dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/xquery/xquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aliCssFw/editor/mode/yaml/yaml.js" />
-    </list>
+    <list id="6ddfe449-f01a-4e24-8e6d-d732baf4a427" name="Rejected commit: Default" comment="ali css framework" />
     <ignored path="CssFramework.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744375042" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-header.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302586" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-xbox.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302587" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-tab-jquery.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302587" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-message.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302588" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/cssLab.html" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302588" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-grid-25.html" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302589" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-list.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302590" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-step.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302591" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-button-jquery.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302592" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-tip.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302593" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-pop.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302594" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-tip-component.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302594" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-grid.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302595" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-form.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302595" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-notice.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302596" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/index.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302597" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/test.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302600" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-nav.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302601" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/contact.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302602" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-table.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302602" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-box.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302603" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-dialog.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302603" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-paging.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302604" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-title.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302604" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-footer.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302605" ignored="false" />
-    <file path="$PROJECT_DIR$/aliCssFw/ui-tab.htm" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1364744302605" ignored="false" />
+    <file path="/Dummy.txt" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1365254198125" ignored="false" />
+    <file path="/ui-tab.css" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1365254583583" ignored="false" />
+    <file path="/ui-paging.css" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1365255007456" ignored="false" />
+    <file path="/ui-pop.css" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1365255209121" ignored="false" />
+    <file path="/header.css" changelist="a3d82a6f-6bdd-4b00-9b6d-c3c4042b3335" time="1365256320427" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,19 +51,123 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="ui-pop.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/ui-pop.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="80" column="22" selection-start="4529" selection-end="4529" vertical-scroll-proportion="-6.3103447">
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1571" column="14" selection-start="62156" selection-end="62156" vertical-scroll-proportion="-3.3448277">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="contact.htm" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aliCssFw/contact.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="378" column="17" selection-start="18049" selection-end="18049" vertical-scroll-proportion="-8.740741">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-input.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-input.css">
+      <file leaf-file-name="cssLab.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/cssLab.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="0.33043477">
+            <state line="6" column="14" selection-start="152" selection-end="152" vertical-scroll-proportion="0.23414634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/test.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.793103">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="364" column="20" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-1.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/function.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="font.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/font.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-tip.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/ui-tip.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="26" selection-start="5982" selection-end="5982" vertical-scroll-proportion="-101.48276">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-tip-component.htm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aliCssFw/ui-tip-component.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="215" column="0" selection-start="8109" selection-end="8109" vertical-scroll-proportion="-10.448276">
               <folding />
             </state>
           </provider>
@@ -383,6 +186,28 @@
   <component name="GitLogSettings">
     <option name="myDateState">
       <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-dialog.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-form.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-icon.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-list.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-message.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-notice.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-paging.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop2.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-step.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tip.css" />
+        <option value="$PROJECT_DIR$/aliCssFw/ui-pop.htm" />
+        <option value="$PROJECT_DIR$/aliCssFw/ui-tip.htm" />
+        <option value="$PROJECT_DIR$/aliCssFw/ui-tip-component.htm" />
+        <option value="$PROJECT_DIR$/aliCssFw/index.htm" />
+        <option value="$PROJECT_DIR$/aliCssFw/header.css" />
+      </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -463,7 +288,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
+              <option name="myItemId" value="editor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -476,8 +301,20 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="66007d09-7988-4099-a91b-f461dff8a330">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -495,7 +332,7 @@
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
       <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSDebuggerConfigurationSettings>
       <method />
@@ -532,28 +369,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6344538" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33753502" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33753502" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913166" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496464" sideWeight="0.36554623" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25813296" sideWeight="0.36554623" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6344538" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -618,16 +455,146 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/aliCssFw/contact.htm">
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="17" selection-start="18049" selection-end="18049" vertical-scroll-proportion="-8.740741">
+        <state line="278" column="41" selection-start="4899" selection-end="4915" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-input.css">
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-pop2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="27" selection-start="315" selection-end="315" vertical-scroll-proportion="0.33043477">
+        <state line="282" column="42" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-repeater.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="27" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-slider-digit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="27" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-step.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="48" selection-start="2531" selection-end="2531" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/editor/lib/tpl/ui-tip.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="37" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/ui-tip.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="26" selection-start="5982" selection-end="5982" vertical-scroll-proportion="-101.48276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/ui-tip-component.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="215" column="0" selection-start="8109" selection-end="8109" vertical-scroll-proportion="-10.448276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/ui-pop.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="22" selection-start="4529" selection-end="4529" vertical-scroll-proportion="-6.3103447">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/font.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/function.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="20" selection-start="8104" selection-end="8104" vertical-scroll-proportion="-1.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/test.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="-5.793103">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1571" column="14" selection-start="62156" selection-end="62156" vertical-scroll-proportion="-3.3448277">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#11;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/contact.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aliCssFw/cssLab.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="152" selection-end="152" vertical-scroll-proportion="0.23414634">
           <folding />
         </state>
       </provider>

@@ -30,7 +30,7 @@
 a.ui-paging-item, a.ui-paging-item span, .ui-paging-ellipsis, 
 .ui-paging-goto, .ui-paging-goto span, a.ui-paging-goto, a.ui-paging-goto span, .ui-paging-which, .ui-paging-which input{
     float:left;
-    background: transparent url('../images/ui-paging.png') no-repeat 0 0;
+    background: transparent url('../../../images/ui-paging.png') no-repeat 0 0;
 }
 .ui-paging {height:24px;}
 .ui-paging, .ui-paging input { color:#4d4d4d; }
@@ -187,8 +187,9 @@ span.ui-paging-next, span.ui-paging-last{
 .ui-paging-text a.ui-paging-prev, .ui-paging-text a.ui-paging-prev:hover,
 .ui-paging-text a.ui-paging-next, .ui-paging-text a.ui-paging-next:hover,
 .ui-paging-text a.ui-paging-last,  .ui-paging-text a.ui-paging-last:hover {
-    background:url("https://img.alipay.com/pa/frame/v2/ico-text.png") no-repeat 0 30px;
+    background:url("../../../images/ico-textt.png") no-repeat 0 30px;
     width:auto;
+
     color:#06B;
 }
 /** 首页 */

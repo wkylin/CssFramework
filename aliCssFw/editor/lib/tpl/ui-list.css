@@ -12,7 +12,7 @@
 .ui-list {}
 .ui-list li {
     padding:0 0 3px 10px;
-    background:url("../images/icons.png") no-repeat 0 -425px;
+    background:url("../../../images/icons.png") no-repeat 0 -425px;
 }
 
 .ui-list a {
@@ -41,7 +41,7 @@
 }
 
 .ui-list-bluelink .ui-list-item {
-    background:url("../images/ui-components.png") no-repeat -173px -20px;
+    background:url("../../../images/ui-components.png") no-repeat -173px -20px;
 
 }
 .ui-list-bluelink .ui-list-item a:link, .ui-list-bluelink .ui-list-item a:visited {
@@ -51,7 +51,7 @@
 }
 
 .ui-list-graylink .ui-list-item {
-    background:url("../images/ui-components.png") no-repeat -189px -1px;
+    background:url("../../../images/ui-components.png") no-repeat -189px -1px;
 
 }
 .ui-list-graylink .ui-list-item a:link, .ui-list-graylink .ui-list-item a:visited {

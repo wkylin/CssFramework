@@ -123,19 +123,19 @@ label, label:focus, label:hover, label:active {
 }
 .ui-radio-label{
     padding-left:20px;
-    background:url("../images/radio.png") 0 0 no-repeat transparent;
+    background:url("../../../images/radio.png") 0 0 no-repeat transparent;
 }
 
 .ui-checkbox-label{
     padding-left:20px;
-    background:url("../images/checkbox.png") 0 0 no-repeat transparent;
+    background:url("../../../images/checkbox.png") 0 0 no-repeat transparent;
 }
 .ui-radio-checked{
-    background:url("../images/radio.png") 0 -19px no-repeat transparent;
+    background:url("../../../images/radio.png") 0 -19px no-repeat transparent;
 }
 
 .ui-checkbox-checked{
-    background:url("../images/checkbox.png") 0 -64px no-repeat transparent;
+    background:url("../../../images/checkbox.png") 0 -64px no-repeat transparent;
 }
 .ui-input-amount, .ui-input-banknum {
     font-size:18px;
@@ -162,7 +162,7 @@ label, label:focus, label:hover, label:active {
     vertical-align:middle;
 }
 .ui-select {
-    background: #FFFFFF url(../images/select_box_off.gif) no-repeat right center;
+    background: #FFFFFF url(../../../images/select_box_off.gif) no-repeat right center;
     border: 1px solid #999;
     cursor: pointer;
     display: block;
@@ -171,7 +171,7 @@ label, label:focus, label:hover, label:active {
 }
 
 .ui-select-hover {
-    background:#FFFFFF url(../images/select_box_on.gif) no-repeat right center;
+    background:#FFFFFF url(../../../images/select_box_on.gif) no-repeat right center;
 }
 
 .ui-select a.ui-selected-value {
@@ -239,7 +239,7 @@ label, label:focus, label:hover, label:active {
 .ui-form-error .ui-form-explain,
 .ui-form-doubt .ui-form-explain, 
 .ui-form-wait .ui-form-explain {
-    background:url("../images/icons.png") no-repeat 0 0;
+    background:url("../../../images/icons.png") no-repeat 0 0;
     color:#4D4D4D;
     padding:6px 0 0 19px;
     line-height:15px;
@@ -302,7 +302,7 @@ label, label:focus, label:hover, label:active {
     margin-right:-160px;
     overflow:hidden;
     color:#20B907;
-    background:url("../images/ico-loading-text.gif") no-repeat right 80%;
+    background:url("../../../images/ico-loading-text.gif") no-repeat right 80%;
     visibility:hidden;
     position:relative;
     top:-3px;
@@ -327,7 +327,7 @@ label, label:focus, label:hover, label:active {
     text-indent:-10em;
     overflow:hidden;
     margin:4px 0 0 3px;
-    background:url("../images/ui-input-del.png") no-repeat 0 0;
+    background:url("../../../images/ui-input-del.png") no-repeat 0 0;
 }
 
 .ui-input-add, .ui-input-add:visited, .ui-input-add:hover {
@@ -339,7 +339,7 @@ label, label:focus, label:hover, label:active {
     height:24px;
     font-weight:700;
     overflow:hidden;
-    background:url("../images/ui-input-add.png") no-repeat 0 0;
+    background:url("../../../images/ui-input-add.png") no-repeat 0 0;
 }
 
 

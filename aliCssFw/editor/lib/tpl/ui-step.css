@@ -25,7 +25,7 @@
     line-height:29px;
 }
 .ui-step-item, .ui-step-item span {
-    background:url('../images/bg-step.png') no-repeat 0 0;
+    background:url('../../../images/bg-step.png') no-repeat 0 0;
     text-align:center;
 }
 .ui-step-item {
@@ -119,13 +119,13 @@
     top:-1px;
     height:85px;
     width:210px;
-    background:transparent url('../images/bg-step.png') repeat-x 0 -210px;
+    background:transparent url('../../../images/bg-step.png') repeat-x 0 -210px;
     color:#ab4400;
     text-align: center;
     line-height:85px;
 }
 .ui-step-one .ui-step-explain{
-    background:transparent url('../images/bg-step.png') repeat-x 0 -310px;
+    background:transparent url('../../../images/bg-step.png') repeat-x 0 -310px;
     height:81px;
     line-height:81px;
     padding-left:230px;
